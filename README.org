@@ -1,1 +1,248 @@
 * Finalize Ammerman Presentation Pieces
+#+begin_src clojure :results silent :show-process t
+(for [n (range 5)] (rand-int 8))
+#+end_src
+
+#+begin_src clojure :results silent
+(for [n (range 5)] (rand-int 8))
+#+end_src
+
+#+begin_src clojure :results silent :show-process t
+*ns*
+#+end_src
+
+#+begin_src clojure :results silent
+(in-ns 'present-intersect.core )
+
+(for [n (range 5)] (rand-int 8))
+#+end_src
+* Find the dropped frame
+** do you need the 0th jpg for a wrap?
+* Figure out how to loop with seq->stream
+* Get a synth going in draw-fn (and use MIDI controller with atoms)
+** test MIDI
+#+BEGIN_SRC clojure :results silent :show-process t
+(event-debug-on)
+#+END_SRC
+
+#+BEGIN_SRC clojure :results silent :show-process t
+(event-debug-off)
+#+END_SRC
+
+** demo
+#+BEGIN_SRC clojure :results silent :show-process t
+(demo 120  (rlpf (dust [12 15]) (+ 1600 (* 1500 (lf-noise1 [1/3, 1/4]))) 0.02 ))
+#+END_SRC
+
+
+
+#+BEGIN_SRC clojure :results silent :show-process t
+(demo 30 (comb-n (rlpf (dust [@param1 15]) (+ 1600 (* @param2 (lf-noise1 [1/3, 1/4]))) (+ 0.01 @param4)) 2 0.1 2))
+#+END_SRC
+** original reference usages
+
+
+#+BEGIN_SRC clojure :results silent :show-process t
+(def param1 (atom 2.0))
+(def param2 (atom 1600.0))
+(def param3 (atom 0.02))
+(def param4 (atom 10))
+
+(def param5 (atom 50))
+(def param6 (atom 50))
+(def param7 (atom 100))
+(def param8 (atom 100))
+#+END_SRC
+** manage event-handlers
+#+begin_src clojure :results silent :show-process t
+  ;; relies on the ~rad-atom~ var
+
+  (on-event [:midi :control-change]
+	    (fn [{cc-channel :note vel :velocity}]
+	      (case cc-channel
+		1 (do (println (list cc-channel vel @param1))
+		      (reset! param1 (* 0.1 vel)))
+		2 (do (println (list cc-channel vel @param2))
+		      (reset! param2 (* 10 vel)))
+		3 (do (println (list cc-channel vel @param3))
+		      (reset! param3 (scale-range vel 0 127 0.089 0.15)))
+		4 (do (println (list cc-channel vel @param4))
+		      (reset! param4 (* 0.0001 vel)))
+		5 (do (println (list cc-channel vel @param5))
+		      (reset! param5 (scale-range vel 0 127 5.0 975.0)))
+		6 (do (println (list cc-channel vel @param6))
+		      (reset! param6 (scale-range vel 0 127 5.0 975.0)))
+		7 (do (println (list cc-channel vel @param7))
+		      (reset! param7 (scale-range vel 0 127 0.0 1500.0)))
+		8 (do (println (list cc-channel vel @param8))
+		      (reset! param8 (scale-range vel 0 127 0.0 1500.0)))
+		))
+	    ::an-8param-resetter)
+
+#+end_src
+
+
+ #+BEGIN_SRC clojure :results silent :show-process t
+ (remove-event-handler ::an-8param-resetter)
+ #+END_SRC
+
+#+begin_src clojure :results silent :show-process t
+      (q/defsketch empty-noise
+      :size [100 100]
+      :setup #(do (q/frame-rate 1) {:x 0 :y 0 :r 1})
+      :draw (fn my-draw [state] ((synth (out 0 (hold (comb-n (rlpf (dust [@param1 15]) (+ 1600 (* @param2 (lf-noise1 [1/3, 1/4]))) (+ 0.01 @param4)) 2 0.1 10) @param3 :done FREE)))))
+
+      :middleware [m/fun-mode m/pause-on-error]
+    )
+#+end_src
+* Add another synth using sclang
+** trippy synth
+#+begin_src sclang :results none
+play{d=Duty;f=d.kr(1/[1,2,4],0,Dseq([0,3,7,12,17]+24,inf));GVerb.ar(Blip.ar(f.midicps*[1,4,8],LFNoise1.kr(1/4,3,4)).sum,200,8)}
+#+end_src
+
+
+#+BEGIN_SRC sclang :results none
+"Hello World".postln;
+#+END_SRC
+`** background dust
+#+begin_src sclang :results none
+play{
+  p=PinkNoise.ar(1!2);
+  BRF.ar(p+Blip.ar(p+2, 400), 150, 2, 0.1)+LPF.ar(FreeVerb2.ar(*LPF.ar(p+0.2*Dust.ar(0.1), 60)++[1, 1, 0.2, 1e4]).tanh, 2000)
+}
+#+end_src
+** loud crackle
+#+begin_src sclang :results none
+play{
+  2.collect{
+    RecordBuf.ar(Limiter.ar(HPF.ar(Convolution2.ar(k=Crackle.ar(l=Line.kr(1, 2, 90)), b=LocalBuf(2048), Dust.kr(4)), 8)+k)*(2-l), b)
+  }
+}
+#+end_src
+
+* last minute
+** image
+- add full frames from sleep
+- mix gen_art 19 into window
+** sound
+
+- intersperse sound code blocks
+- improve all parameter functionality
+* change movie file names
+** original
+#+begin_src clojure :results silent :show-process t
+{:mov0 (q/load-image "mov0.jpg")
+	      :mov1 (q/load-image "mov1.jpg")
+	      :mov2 (q/load-image "mov2.jpg")
+	      :mov3 (q/load-image "mov3.jpg")
+	      :mov4 (q/load-image "mov4.jpg")
+	      :mov5 (q/load-image "mov5.jpg")
+	      :mov6 (q/load-image "mov6.jpg")
+	      :mov7 (q/load-image "mov7.jpg")
+	      :mov8 (q/load-image "mov8.jpg")
+	      :mov9 (q/load-image "mov9.jpg")
+	      :mov10 (q/load-image "mov10.jpg")
+	      :mov11 (q/load-image "mov11.jpg")
+	      :mov12 (q/load-image "mov12.jpg") :mov13 (q/load-image "mov13.jpg") :mov14 (q/load-image "mov14.jpg") :mov15 (q/load-image "mov15.jpg")  :mov16 (q/load-image "mov16.jpg") :mov17 (q/load-image "mov17.jpg") :mov18 (q/load-image "mov18.jpg") :mov19 (q/load-image "mov19.jpg") :mov20 (q/load-image "mov20.jpg")  :mov21 (q/load-image "mov21.jpg")  :mov22 (q/load-image "mov22.jpg")  :mov23 (q/load-image "mov23.jpg") :mov24 (q/load-image "mov24.jpg") :mov25 (q/load-image "mov25.jpg") :mov26 (q/load-image "mov26.jpg") :mov27 (q/load-image "mov27.jpg") :mov28 (q/load-image "mov28.jpg") :mov29 (q/load-image "mov29.jpg") :mov30 (q/load-image "mov30.jpg") :mov31 (q/load-image "mov31.jpg") :mov32 (q/load-image "mov32.jpg") :mov33 (q/load-image "mov33.jpg") :mov34 (q/load-image "mov34.jpg") :mov35 (q/load-image "mov35.jpg") :mov36 (q/load-image "mov36.jpg") :mov37 (q/load-image "mov37.jpg") :mov38 (q/load-image "mov38.jpg") :mov39 (q/load-image "mov39.jpg") :mov40 (q/load-image "mov40.jpg") :mov41 (q/load-image "mov41.jpg") :mov42 (q/load-image "mov42.jpg") :mov43 (q/load-image "mov43.jpg") :mov44 (q/load-image "mov44.jpg") :mov45 (q/load-image "mov45.jpg") :mov46 (q/load-image "mov46.jpg") ;; :mov47 (q/load-image "mov47.jpg") :mov48 (q/load-image "mov48.jpg") :mov49 (q/load-image "mov49.jpg") :mov50 (q/load-image "mov50.jpg"
+	      }
+    :nom-de-fn nom}
+#+end_src
+** no mov prefix
+#+begin_src clojure :results silent :show-process t
+{:mov0 (q/load-image "00000.jpg")
+	      :mov1 (q/load-image "00001.jpg")
+	      :mov2 (q/load-image "00002.jpg")
+	      :mov3 (q/load-image "00003.jpg")
+	      :mov4 (q/load-image "00004.jpg")
+	      :mov5 (q/load-image "00005.jpg")
+	      :mov6 (q/load-image "00006.jpg")
+	      :mov7 (q/load-image "00007.jpg")
+	      :mov8 (q/load-image "00008.jpg")
+	      :mov9 (q/load-image "00009.jpg")
+	      :mov10 (q/load-image "00010.jpg")
+	      :mov11 (q/load-image "00011.jpg")
+	      :mov12 (q/load-image "00012.jpg") :mov13 (q/load-image "00013.jpg") :mov14 (q/load-image "00014.jpg") :mov15 (q/load-image "00015.jpg")  :mov16 (q/load-image "00016.jpg") :mov17 (q/load-image "00017.jpg") :mov18 (q/load-image "00018.jpg") :mov19 (q/load-image "00019.jpg") :mov20 (q/load-image "00020.jpg")  :mov21 (q/load-image "00021.jpg")  :mov22 (q/load-image "00022.jpg")  :mov23 (q/load-image "00023.jpg") :mov24 (q/load-image "00024.jpg") :mov25 (q/load-image "00025.jpg") :mov26 (q/load-image "00026.jpg") :mov27 (q/load-image "00027.jpg") :mov28 (q/load-image "00028.jpg") :mov29 (q/load-image "00029.jpg") :mov30 (q/load-image "00030.jpg") :mov31 (q/load-image "00031.jpg") :mov32 (q/load-image "00032.jpg") :mov33 (q/load-image "00033.jpg") :mov34 (q/load-image "00034.jpg") :mov35 (q/load-image "00035.jpg") :mov36 (q/load-image "00036.jpg") :mov37 (q/load-image "00037.jpg") :mov38 (q/load-image "00038.jpg") :mov39 (q/load-image "00039.jpg") :mov40 (q/load-image "00040.jpg") :mov41 (q/load-image "00041.jpg") :mov42 (q/load-image "00042.jpg") :mov43 (q/load-image "00043.jpg") :mov44 (q/load-image "00044.jpg") :mov45 (q/load-image "00045.jpg") :mov46 (q/load-image "00046.jpg") ;; :mov47 (q/load-image "00047.jpg") :mov48 (q/load-image "00048.jpg") :mov49 (q/load-image "00049.jpg") :mov50 (q/load-image "00050.jpg"
+	      }
+    :nom-de-fn nom}
+#+end_src
+* sclang kmacro
+#+begin_src emacs-lisp
+(global-set-key (kbd "<f5>") 'stop-sclang)
+#+end_src
+
+#+RESULTS:
+: stop-sclang
+
+#+begin_src emacs-lisp
+(fset 'stop-sclang
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([24 98 87 111 114 107 115 112 97 99 101 return 3 19 24 98 return] 0 "%d")) arg)))
+
+
+#+end_src
+
+#+RESULTS:
+| lambda | (&optional arg) | Keyboard macro. | (interactive p) | (kmacro-exec-ring-item (quote ([24 98 87 111 114 107 115 112 97 99 101 return 3 19 24 98 return] 0 %d)) arg) |
+
+
+#+begin_src emacs-lisp
+;; Keyboard Macro Editor.  Press C-c C-c to finish; press C-x k RET to cancel.
+;; Original keys: C-x b W o r k s p a c e RET C-c C-s C-x b RET
+
+Command: last-kbd-macro
+Key: none
+
+Macro:
+
+C-x b			;; switch-to-buffer
+W			;; self-insert-command
+o			;; self-insert-command
+r			;; self-insert-command
+k			;; self-insert-command
+s			;; self-insert-command
+p			;; self-insert-command
+a			;; self-insert-command
+c			;; self-insert-command
+e			;; self-insert-command
+RET			;; org-return
+C-c C-s			;; org-schedule
+C-x b			;; switch-to-buffer
+RET			;; org-return
+
+#+end_src
+** some default babel blocks
+#+begin_src sclang :results none
+
+#+end_src
+
+#+begin_src clojure :results silent :show-process t
+
+#+end_src
+
+#+begin_src emacs-lisp
+
+#+end_src
+* steps
+** preshow
+- open python hellow world and pyvenv
+- elpy-config
+- start-up cider-repl (from project.clj
+- open final-draft
+- open this readme hah
+- sclang-start
+- boot server in workspace
+- define kmacro and bind immediately above
+** new preshow
+- restart emacs
+- open project.clj
+- load overtone at repl
+- eval clj subtree
+- eval sclang babel example (~short crackl~)
+- eval quil gen art example subtree (~gen_art19~)
+- begin text
+- on fade out of short, eval ~empty-noise~
+  - very quiet
+- Fun STEM interlude
+  - eval ~easier blips~
+
+
