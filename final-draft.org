@@ -516,6 +516,5 @@ It's okay, it's good...If you walk away saying, I thought I knew what he/it mean
 Together we will have made something, collaborating on a real time, ambiguous meaning, that no algorithm can do for you. 
 
 And that should be celebrated. Art did its job, leaving you smarter and more confused, less certain and all the wiser for it.
-
-
-
+* License
+The content of this project itself is licensed under the [[http://creativecommons.org/licenses/by/3.0/us/deed.en_US][Creative Commons Attribution 3.0 license]], and the underlying source code used to format and display that content is licensed under the [[https://www.gnu.org/licenses/gpl-3.0.txt][GNU GPLv3]]
