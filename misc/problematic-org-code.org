@@ -1,0 +1,725 @@
+* good
+#+begin_src clojure :results silent :show-process t
+    ;; (ns present-intersect.images
+    ;;   (:require [quil.core :as q]
+    ;;             [quil.middleware :as m]
+    ;;             [quil.helpers.seqs :as s]))
+
+    (def nom (s/seq->stream (cycle [:mov0 :mov1 :mov2 :mov3 :mov4 :mov5 :mov6 :mov7 :mov8 :mov9 :mov10 :mov11 :mov12 :mov13 :mov14 :mov15 :mov16 :mov17 :mov18 :mov19 :mov20 :mov21 :mov22 :mov23 :mov24 :mov25 :mov26 :mov27 :mov28 :mov29 :mov30 :mov31 :mov32 :mov33 :mov34 :mov35 :mov36 :mov37 :mov38 :mov39 :mov40 :mov41 :mov42 :mov43 :mov44 :mov45 :mov46 :mov47 ])))
+
+(defn setup [] (q/frame-rate 10)
+      {:images {:mov0 (q/load-image "00000.jpg")
+		:mov1 (q/load-image "00001.jpg")
+		:mov2 (q/load-image "00002.jpg")
+		:mov3 (q/load-image "00003.jpg")
+		:mov4 (q/load-image "00004.jpg")
+		:mov5 (q/load-image "00005.jpg")
+		:mov6 (q/load-image "00006.jpg")
+		:mov7 (q/load-image "00007.jpg")
+		:mov8 (q/load-image "00008.jpg")
+		:mov9 (q/load-image "00009.jpg")
+		:mov10 (q/load-image "00010.jpg")
+		:mov11 (q/load-image "00011.jpg")
+		:mov12 (q/load-image "00012.jpg") :mov13 (q/load-image "00013.jpg") :mov14 (q/load-image "00014.jpg") :mov15 (q/load-image "00015.jpg")  :mov16 (q/load-image "00016.jpg") :mov17 (q/load-image "00017.jpg") :mov18 (q/load-image "00018.jpg") :mov19 (q/load-image "00019.jpg") :mov20 (q/load-image "00020.jpg")  :mov21 (q/load-image "00021.jpg")  :mov22 (q/load-image "00022.jpg")  :mov23 (q/load-image "00023.jpg") :mov24 (q/load-image "00024.jpg") :mov25 (q/load-image "00025.jpg") :mov26 (q/load-image "00026.jpg") :mov27 (q/load-image "00027.jpg") :mov28 (q/load-image "00028.jpg") :mov29 (q/load-image "00029.jpg") :mov30 (q/load-image "00030.jpg") :mov31 (q/load-image "00031.jpg") :mov32 (q/load-image "00032.jpg") :mov33 (q/load-image "00033.jpg") :mov34 (q/load-image "00034.jpg") :mov35 (q/load-image "00035.jpg") :mov36 (q/load-image "00036.jpg") :mov37 (q/load-image "00037.jpg") :mov38 (q/load-image "00038.jpg") :mov39 (q/load-image "00039.jpg") :mov40 (q/load-image "00040.jpg") :mov41 (q/load-image "00041.jpg") :mov42 (q/load-image "00042.jpg") :mov43 (q/load-image "00043.jpg") :mov44 (q/load-image "00044.jpg") :mov45 (q/load-image "00045.jpg") :mov46 (q/load-image "00046.jpg") :mov47 (q/load-image "00047.jpg") 
+		}
+      :nom-de-fn nom}
+      )
+
+    
+    ;;; should use all the following eventually
+
+    ;; (defn load-image [image]
+    ;;   (let [path (str (name image) ".jpg")]
+    ;;     (q/request-image path)))
+
+    ;; (defn draw-image [state k [x y]]
+    ;;   (q/image (get-in state [:images k]) x y))
+
+    ;; (defn setup []
+    ;;   (q/frame-rate 25)
+    ;;   ;; (q/color-mode :rgb)
+    ;;   (q/image-mode :center)
+    ;;   {:images (zipmap images (map load-image images))})
+
+    (defn update-state [state]
+      (identity state))
+
+    (defn draw-state [state]
+      (q/image (get-in state [:images ((:nom-de-fn state))]) 0 0))
+
+    (defn key-pressed [state event] (identity state))
+
+    (q/defsketch aname
+      :title "the tune"
+       :size [1280 700]
+       :setup setup
+       :update update-state
+      :draw draw-state
+      :features [
+		 ;; :present 
+		 :resizable]
+      :key-pressed key-pressed
+      :middleware [m/fun-mode m/pause-on-error])
+
+
+#+end_src
+* works?
+#+begin_src clojure :results silent :show-process t
+    ;; (ns present-intersect.images
+    ;;   (:require [quil.core :as q]
+    ;;             [quil.middleware :as m]
+    ;;             [quil.helpers.seqs :as s]))
+
+    (def nom (s/seq->stream (cycle [:mov48 :mov49 :mov50 :mov51 :mov52 :mov53 :mov54 :mov55 :mov56 :mov57 :mov58 :mov59 :mov60 :mov61 :mov62 :mov63 :mov64 :mov65 :mov66 :mov67] )))
+
+(defn setup [] (q/frame-rate 10)
+      {:images {:mov48 (q/load-image "00048.jpg") :mov49 (q/load-image "00049.jpg") :mov50 (q/load-image "00050.jpg") (q/load-image "00051.jpg") :mov52 (q/load-image "00052.jpg") :mov53 (q/load-image "00053.jpg") :mov54 (q/load-image "00054.jpg") :mov55 (q/load-image "00055.jpg") :mov56 (q/load-image "00056.jpg") :mov57 (q/load-image "00057.jpg") :mov58 (q/load-image "00058.jpg") :mov59 (q/load-image "00059.jpg") :mov60 (q/load-image "00060.jpg") :mov61 (q/load-image "00061.jpg") :mov62 (q/load-image "00062.jpg") :mov63 (q/load-image "00063.jpg") :mov64 (q/load-image "00064.jpg") :mov65 (q/load-image "00065.jpg") :mov66 (q/load-image "00066.jpg") :mov67 (q/load-image "00067.jpg")
+      }
+      :nom-de-fn nom }
+      )
+
+    
+    ;;; should use all the following eventually
+
+    ;; (defn load-image [image]
+    ;;   (let [path (str (name image) ".jpg")]
+    ;;     (q/request-image path)))
+
+    ;; (defn draw-image [state k [x y]]
+    ;;   (q/image (get-in state [:images k]) x y))
+
+    ;; (defn setup []
+    ;;   (q/frame-rate 25)
+    ;;   ;; (q/color-mode :rgb)
+    ;;   (q/image-mode :center)
+    ;;   {:images (zipmap images (map load-image images))})
+
+    (defn update-state [state]
+      (identity state))
+
+    (defn draw-state [state]
+      (q/image (get-in state [:images ((:nom-de-fn state))]) 0 0))
+
+    (defn key-pressed [state event] (identity state))
+
+    (q/defsketch aname
+      :title "the tune"
+       :size [1280 700]
+       :setup setup
+       :update update-state
+      :draw draw-state
+      :features [
+		 ;; :present 
+		 :resizable]
+      :key-pressed key-pressed
+      :middleware [m/fun-mode m/pause-on-error])
+
+
+#+end_src
+* bad (don't open if you like typing!)
+#+begin_src clojure :results silent :show-process t
+:mov48 (q/load-image "00048.jpg") :mov49 (q/load-image "00049.jpg") :mov50 (q/load-image "00050.jpg") (q/load-image "00051.jpg") :mov52 (q/load-image "00052.jpg") :mov53 (q/load-image "00053.jpg") :mov54 (q/load-image "00054.jpg") :mov55 (q/load-image "00055.jpg") :mov56 (q/load-image "00056.jpg") :mov57 (q/load-image "00057.jpg") :mov58 (q/load-image "00058.jpg") :mov59 (q/load-image "00059.jpg") :mov60 (q/load-image "00060.jpg") :mov61 (q/load-image "00061.jpg") :mov62 (q/load-image "00062.jpg") :mov63 (q/load-image "00063.jpg") :mov64 (q/load-image "00064.jpg") :mov65 (q/load-image "00065.jpg") :mov66 (q/load-image "00066.jpg") :mov67 (q/load-image "00067.jpg") :mov68 (q/load-image "00068.jpg") :mov69 (q/load-image "00069.jpg") :mov70 (q/load-image "00070.jpg") :mov71 (q/load-image "00071.jpg") :mov72 (q/load-image "00072.jpg") :mov73 (q/load-image "00073.jpg") :mov74 (q/load-image "00074.jpg") :mov75 (q/load-image "00075.jpg") :mov76 (q/load-image "00076.jpg") :mov77 (q/load-image "00077.jpg") :mov78 (q/load-image "00078.jpg") :mov79 (q/load-image "00079.jpg") :mov80 (q/load-image "00080.jpg") :mov81 (q/load-image "00081.jpg") :mov82 (q/load-image "00082.jpg") :mov83 (q/load-image "00083.jpg") :mov84 (q/load-image "00084.jpg") :mov85 (q/load-image "00085.jpg") :mov86 (q/load-image "00086.jpg") :mov87 (q/load-image "00087.jpg") :mov88 (q/load-image "00088.jpg") :mov89 (q/load-image "00089.jpg") :mov90 (q/load-image "00090.jpg") :mov91 (q/load-image "00091.jpg") :mov92 (q/load-image "00092.jpg") :mov93 (q/load-image "00093.jpg") :mov94 (q/load-image "00094.jpg") :mov95 (q/load-image "00095.jpg") :mov96 (q/load-image "00096.jpg") :mov97 (q/load-image "00097.jpg") :mov98 (q/load-image "00098.jpg") :mov99 (q/load-image "00099.jpg") :mov100 (q/load-image "000100.jpg") :mov101 (q/load-image "000101.jpg") :mov102 (q/load-image "000102.jpg") :mov103 (q/load-image "000103.jpg") :mov104 (q/load-image "000104.jpg") :mov105 (q/load-image "000105.jpg") :mov106 (q/load-image "000106.jpg") :mov107 (q/load-image "000107.jpg") :mov108 (q/load-image "000108.jpg") :mov109 (q/load-image "000109.jpg") :mov110 (q/load-image "000110.jpg") :mov111 (q/load-image "000111.jpg") :mov112 (q/load-image "000112.jpg") :mov113 (q/load-image "000113.jpg") :mov114 (q/load-image "000114.jpg") :mov115 (q/load-image "000115.jpg") :mov116 (q/load-image "000116.jpg") :mov117 (q/load-image "000117.jpg") :mov118 (q/load-image "000118.jpg") :mov119 (q/load-image "000119.jpg") :mov120 (q/load-image "000120.jpg") :mov121 (q/load-image "000121.jpg") :mov122 (q/load-image "000122.jpg") :mov123 (q/load-image "000123.jpg") :mov124 (q/load-image "000124.jpg") :mov125 (q/load-image "000125.jpg") :mov126 (q/load-image "000126.jpg") :mov127 (q/load-image "000127.jpg") :mov128 (q/load-image "000128.jpg") :mov129 (q/load-image "000129.jpg") :mov130 (q/load-image "000130.jpg") :mov131 (q/load-image "000131.jpg") :mov132 (q/load-image "000132.jpg") :mov133 (q/load-image "000133.jpg") :mov134 (q/load-image "000134.jpg") :mov135 (q/load-image "000135.jpg") :mov136 (q/load-image "000136.jpg") :mov137 (q/load-image "000137.jpg") :mov138 (q/load-image "000138.jpg") :mov139 (q/load-image "000139.jpg") :mov140 (q/load-image "000140.jpg") :mov141 (q/load-image "000141.jpg") :mov142 (q/load-image "000142.jpg") :mov143 (q/load-image "000143.jpg") :mov144 (q/load-image "000144.jpg") :mov145 (q/load-image "000145.jpg") :mov146 (q/load-image "000146.jpg") :mov147 (q/load-image "000147.jpg") :mov148 (q/load-image "000148.jpg") :mov149 (q/load-image "000149.jpg") :mov150 (q/load-image "000150.jpg") :mov151 (q/load-image "000151.jpg") :mov152 (q/load-image "000152.jpg") :mov153 (q/load-image "000153.jpg") :mov154 (q/load-image "000154.jpg") :mov155 (q/load-image "000155.jpg") :mov156 (q/load-image "000156.jpg") :mov157 (q/load-image "000157.jpg") :mov158 (q/load-image "000158.jpg") :mov159 (q/load-image "000159.jpg") :mov160 (q/load-image "000160.jpg") :mov161 (q/load-image "000161.jpg") :mov162 (q/load-image "000162.jpg") :mov163 (q/load-image "000163.jpg") :mov164 (q/load-image "000164.jpg") :mov165 (q/load-image "000165.jpg") :mov166 (q/load-image "000166.jpg") :mov167 (q/load-image "000167.jpg") :mov168 (q/load-image "000168.jpg") :mov169 (q/load-image "000169.jpg") :mov170 (q/load-image "000170.jpg") :mov171 (q/load-image "000171.jpg") :mov172 (q/load-image "000172.jpg") :mov173 (q/load-image "000173.jpg") :mov174 (q/load-image "000174.jpg") :mov175 (q/load-image "000175.jpg") :mov176 (q/load-image "000176.jpg") :mov177 (q/load-image "000177.jpg") :mov178 (q/load-image "000178.jpg") :mov179 (q/load-image "000179.jpg") :mov180 (q/load-image "000180.jpg") :mov181 (q/load-image "000181.jpg") :mov182 (q/load-image "000182.jpg") :mov183 (q/load-image "000183.jpg") :mov184 (q/load-image "000184.jpg") :mov185 (q/load-image "000185.jpg") :mov186 (q/load-image "000186.jpg") :mov187 (q/load-image "000187.jpg") :mov188 (q/load-image "000188.jpg") :mov189 (q/load-image "000189.jpg") :mov190 (q/load-image "000190.jpg") :mov191 (q/load-image "000191.jpg") :mov192 (q/load-image "000192.jpg") :mov193 (q/load-image "000193.jpg") :mov194 (q/load-image "000194.jpg") :mov195 (q/load-image "000195.jpg") :mov196 (q/load-image "000196.jpg") :mov197 (q/load-image "000197.jpg") :mov198 (q/load-image "000198.jpg") :mov199 (q/load-image "000199.jpg") :mov200 (q/load-image "000200.jpg") :mov201 (q/load-image "000201.jpg") :mov202 (q/load-image "000202.jpg") :mov203 (q/load-image "000203.jpg") :mov204 (q/load-image "000204.jpg") :mov205 (q/load-image "000205.jpg") :mov206 (q/load-image "000206.jpg") :mov207 (q/load-image "000207.jpg") :mov208 (q/load-image "000208.jpg") :mov209 (q/load-image "000209.jpg") :mov210 (q/load-image "000210.jpg") :mov211 (q/load-image "000211.jpg") :mov212 (q/load-image "000212.jpg") :mov213 (q/load-image "000213.jpg") :mov214 (q/load-image "000214.jpg") :mov215 (q/load-image "000215.jpg") :mov216 (q/load-image "000216.jpg") :mov217 (q/load-image "000217.jpg") :mov218 (q/load-image "000218.jpg") :mov219 (q/load-image "000219.jpg") :mov220 (q/load-image "000220.jpg") :mov221 (q/load-image "000221.jpg") :mov222 (q/load-image "000222.jpg") :mov223 (q/load-image "000223.jpg") :mov224 (q/load-image "000224.jpg") :mov225 (q/load-image "000225.jpg") :mov226 (q/load-image "000226.jpg") :mov227 (q/load-image "000227.jpg") :mov228 (q/load-image "000228.jpg") :mov229 (q/load-image "000229.jpg") :mov230 (q/load-image "000230.jpg") :mov231 (q/load-image "000231.jpg") :mov232 (q/load-image "000232.jpg") :mov233 (q/load-image "000233.jpg") :mov234 (q/load-image "000234.jpg") :mov235 (q/load-image "000235.jpg") :mov236 (q/load-image "000236.jpg") :mov237 (q/load-image "000237.jpg") :mov238 (q/load-image "000238.jpg") :mov239 (q/load-image "000239.jpg") :mov240 (q/load-image "000240.jpg") :mov241 (q/load-image "000241.jpg") :mov242 (q/load-image "000242.jpg") :mov243 (q/load-image "000243.jpg") :mov244 (q/load-image "000244.jpg") :mov245 (q/load-image "000245.jpg") :mov246 (q/load-image "000246.jpg") :mov247 (q/load-image "000247.jpg") :mov248 (q/load-image "000248.jpg") :mov249 (q/load-image "000249.jpg") :mov250 (q/load-image "000250.jpg") :mov251 (q/load-image "000251.jpg") :mov252 (q/load-image "000252.jpg") :mov253 (q/load-image "000253.jpg") :mov254 (q/load-image "000254.jpg") :mov255 (q/load-image "000255.jpg") :mov256 (q/load-image "000256.jpg") :mov257 (q/load-image "000257.jpg") :mov258 (q/load-image "000258.jpg") :mov259 (q/load-image "000259.jpg") :mov260 (q/load-image "000260.jpg") :mov261 (q/load-image "000261.jpg") :mov262 (q/load-image "000262.jpg") :mov263 (q/load-image "000263.jpg") :mov264 (q/load-image "000264.jpg") :mov265 (q/load-image "000265.jpg") :mov266 (q/load-image "000266.jpg") :mov267 (q/load-image "000267.jpg") :mov268 (q/load-image "000268.jpg") :mov269 (q/load-image "000269.jpg") :mov270 (q/load-image "000270.jpg") :mov271 (q/load-image "000271.jpg") :mov272 (q/load-image "000272.jpg") :mov273 (q/load-image "000273.jpg") :mov274 (q/load-image "000274.jpg") :mov275 (q/load-image "000275.jpg") :mov276 (q/load-image "000276.jpg") :mov277 (q/load-image "000277.jpg") :mov278 (q/load-image "000278.jpg") :mov279 (q/load-image "000279.jpg") :mov280 (q/load-image "000280.jpg") :mov281 (q/load-image "000281.jpg") :mov282 (q/load-image "000282.jpg") :mov283 (q/load-image "000283.jpg") :mov284 (q/load-image "000284.jpg") :mov285 (q/load-image "000285.jpg") :mov286 (q/load-image "000286.jpg") :mov287 (q/load-image "000287.jpg") :mov288 (q/load-image "000288.jpg") :mov289 (q/load-image "000289.jpg") :mov290 (q/load-image "000290.jpg") :mov291 (q/load-image "000291.jpg") :mov292 (q/load-image "000292.jpg") :mov293 (q/load-image "000293.jpg") :mov294 (q/load-image "000294.jpg") :mov295 (q/load-image "000295.jpg") :mov296 (q/load-image "000296.jpg") :mov297 (q/load-image "000297.jpg") :mov298 (q/load-image "000298.jpg") :mov299 (q/load-image "000299.jpg") :mov300 (q/load-image "000300.jpg") :mov301 (q/load-image "000301.jpg") :mov302 (q/load-image "000302.jpg") :mov303 (q/load-image "000303.jpg") :mov304 (q/load-image "000304.jpg") :mov305 (q/load-image "000305.jpg") :mov306 (q/load-image "000306.jpg") :mov307 (q/load-image "000307.jpg") :mov308 (q/load-image "000308.jpg") :mov309 (q/load-image "000309.jpg") :mov310 (q/load-image "000310.jpg") :mov311 (q/load-image "000311.jpg") :mov312 (q/load-image "000312.jpg") :mov313 (q/load-image "000313.jpg") :mov314 (q/load-image "000314.jpg") :mov315 (q/load-image "000315.jpg") :mov316 (q/load-image "000316.jpg") :mov317 (q/load-image "000317.jpg") :mov318 (q/load-image "000318.jpg") :mov319 (q/load-image "000319.jpg") :mov320 (q/load-image "000320.jpg") :mov321 (q/load-image "000321.jpg") :mov322 (q/load-image "000322.jpg") :mov323 (q/load-image "000323.jpg") :mov324 (q/load-image "000324.jpg") :mov325 (q/load-image "000325.jpg") :mov326 (q/load-image "000326.jpg") :mov327 (q/load-image "000327.jpg") :mov328 (q/load-image "000328.jpg") :mov329 (q/load-image "000329.jpg") :mov330 (q/load-image "000330.jpg") :mov331 (q/load-image "000331.jpg") :mov332 (q/load-image "000332.jpg") :mov333 (q/load-image "000333.jpg") :mov334 (q/load-image "000334.jpg") :mov335 (q/load-image "000335.jpg") :mov336 (q/load-image "000336.jpg") :mov337 (q/load-image "000337.jpg") :mov338 (q/load-image "000338.jpg") :mov339 (q/load-image "000339.jpg") :mov340 (q/load-image "000340.jpg") :mov341 (q/load-image "000341.jpg") :mov342 (q/load-image "000342.jpg") :mov343 (q/load-image "000343.jpg") :mov344 (q/load-image "000344.jpg") :mov345 (q/load-image "000345.jpg") :mov346 (q/load-image "000346.jpg") :mov347 (q/load-image "000347.jpg") :mov348 (q/load-image "000348.jpg") :mov349 (q/load-image "000349.jpg") :mov350 (q/load-image "000350.jpg") :mov351 (q/load-image "000351.jpg") :mov352 (q/load-image "000352.jpg") :mov353 (q/load-image "000353.jpg") :mov354 (q/load-image "000354.jpg") :mov355 (q/load-image "000355.jpg") :mov356 (q/load-image "000356.jpg") :mov357 (q/load-image "000357.jpg") :mov358 (q/load-image "000358.jpg") :mov359 (q/load-image "000359.jpg") :mov360 (q/load-image "000360.jpg") :mov361 (q/load-image "000361.jpg") :mov362 (q/load-image "000362.jpg") :mov363 (q/load-image "000363.jpg") :mov364 (q/load-image "000364.jpg") :mov365 (q/load-image "000365.jpg") :mov366 (q/load-image "000366.jpg") :mov367 (q/load-image "000367.jpg") :mov368 (q/load-image "000368.jpg") :mov369 (q/load-image "000369.jpg") :mov370 (q/load-image "000370.jpg") :mov371 (q/load-image "000371.jpg") :mov372 (q/load-image "000372.jpg") :mov373 (q/load-image "000373.jpg") :mov374 (q/load-image "000374.jpg") :mov375 (q/load-image "000375.jpg") :mov376 (q/load-image "000376.jpg") :mov377 (q/load-image "000377.jpg") :mov378 (q/load-image "000378.jpg") :mov379 (q/load-image "000379.jpg") :mov380 (q/load-image "000380.jpg") :mov381 (q/load-image "000381.jpg") :mov382 (q/load-image "000382.jpg") :mov383 (q/load-image "000383.jpg") :mov384 (q/load-image "000384.jpg") :mov385 (q/load-image "000385.jpg") :mov386 (q/load-image "000386.jpg") :mov387 (q/load-image "000387.jpg") :mov388 (q/load-image "000388.jpg") :mov389 (q/load-image "000389.jpg") :mov390 (q/load-image "000390.jpg") :mov391 (q/load-image "000391.jpg") :mov392 (q/load-image "000392.jpg") :mov393 (q/load-image "000393.jpg") :mov394 (q/load-image "000394.jpg") :mov395 (q/load-image "000395.jpg") :mov396 (q/load-image "000396.jpg") :mov397 (q/load-image "000397.jpg") :mov398 (q/load-image "000398.jpg") :mov399 (q/load-image "000399.jpg") :mov400 (q/load-image "000400.jpg") :mov401 (q/load-image "000401.jpg") :mov402 (q/load-image "000402.jpg") :mov403 (q/load-image "000403.jpg") :mov404 (q/load-image "000404.jpg") :mov405 (q/load-image "000405.jpg") :mov406 (q/load-image "000406.jpg") :mov407 (q/load-image "000407.jpg") :mov408 (q/load-image "000408.jpg") :mov409 (q/load-image "000409.jpg") :mov410 (q/load-image "000410.jpg") :mov411 (q/load-image "000411.jpg") :mov412 (q/load-image "000412.jpg") :mov413 (q/load-image "000413.jpg") :mov414 (q/load-image "000414.jpg") :mov415 (q/load-image "000415.jpg") :mov416 (q/load-image "000416.jpg") :mov417 (q/load-image "000417.jpg") :mov418 (q/load-image "000418.jpg") :mov419 (q/load-image "000419.jpg") :mov420 (q/load-image "000420.jpg") :mov421 (q/load-image "000421.jpg") :mov422 (q/load-image "000422.jpg") :mov423 (q/load-image "000423.jpg") :mov424 (q/load-image "000424.jpg") :mov425 (q/load-image "000425.jpg") :mov426 (q/load-image "000426.jpg") :mov427 (q/load-image "000427.jpg") :mov428 (q/load-image "000428.jpg") :mov429 (q/load-image "000429.jpg") :mov430 (q/load-image "000430.jpg") :mov431 (q/load-image "000431.jpg") :mov432 (q/load-image "000432.jpg") :mov433 (q/load-image "000433.jpg") :mov434 (q/load-image "000434.jpg") :mov435 (q/load-image "000435.jpg") :mov436 (q/load-image "000436.jpg") :mov437 (q/load-image "000437.jpg") :mov438 (q/load-image "000438.jpg") :mov439 (q/load-image "000439.jpg") :mov440 (q/load-image "000440.jpg") :mov441 (q/load-image "000441.jpg") :mov442 (q/load-image "000442.jpg") :mov443 (q/load-image "000443.jpg") :mov444 (q/load-image "000444.jpg") :mov445 (q/load-image "000445.jpg") :mov446 (q/load-image "000446.jpg") :mov447 (q/load-image "000447.jpg") :mov448 (q/load-image "000448.jpg") :mov449 (q/load-image "000449.jpg") :mov450 (q/load-image "000450.jpg") :mov451 (q/load-image "000451.jpg") :mov452 (q/load-image "000452.jpg") :mov453 (q/load-image "000453.jpg") :mov454 (q/load-image "000454.jpg") :mov455 (q/load-image "000455.jpg") :mov456 (q/load-image "000456.jpg") :mov457 (q/load-image "000457.jpg") :mov458 (q/load-image "000458.jpg") :mov459 (q/load-image "000459.jpg") :mov460 (q/load-image "000460.jpg") :mov461 (q/load-image "000461.jpg") :mov462 (q/load-image "000462.jpg") :mov463 (q/load-image "000463.jpg") :mov464 (q/load-image "000464.jpg") :mov465 (q/load-image "000465.jpg") :mov466 (q/load-image "000466.jpg") :mov467 (q/load-image "000467.jpg") :mov468 (q/load-image "000468.jpg") :mov469 (q/load-image "000469.jpg") :mov470 (q/load-image "000470.jpg") :mov471 (q/load-image "000471.jpg") :mov472 (q/load-image "000472.jpg") :mov473 (q/load-image "000473.jpg") :mov474 (q/load-image "000474.jpg") :mov475 (q/load-image "000475.jpg") :mov476 (q/load-image "000476.jpg") :mov477 (q/load-image "000477.jpg") :mov478 (q/load-image "000478.jpg") :mov479 (q/load-image "000479.jpg") :mov480 (q/load-image "000480.jpg") :mov481 (q/load-image "000481.jpg") :mov482 (q/load-image "000482.jpg") :mov483 (q/load-image "000483.jpg") :mov484 (q/load-image "000484.jpg") :mov485 (q/load-image "000485.jpg") :mov486 (q/load-image "000486.jpg") :mov487 (q/load-image "000487.jpg") :mov488 (q/load-image "000488.jpg") :mov489 (q/load-image "000489.jpg") :mov490 (q/load-image "000490.jpg") :mov491 (q/load-image "000491.jpg") :mov492 (q/load-image "000492.jpg") :mov493 (q/load-image "000493.jpg") :mov494 (q/load-image "000494.jpg") :mov495 (q/load-image "000495.jpg") :mov496 (q/load-image "000496.jpg") :mov497 (q/load-image "000497.jpg") :mov498 (q/load-image "000498.jpg") :mov499 (q/load-image "000499.jpg") :mov500 (q/load-image "000500.jpg") :mov501 (q/load-image "000501.jpg") :mov502 (q/load-image "000502.jpg") :mov503 (q/load-image "000503.jpg") :mov504 (q/load-image "000504.jpg") :mov505 (q/load-image "000505.jpg") :mov506 (q/load-image "000506.jpg") :mov507 (q/load-image "000507.jpg") :mov508 (q/load-image "000508.jpg") :mov509 (q/load-image "000509.jpg") :mov510 (q/load-image "000510.jpg") :mov511 (q/load-image "000511.jpg") :mov512 (q/load-image "000512.jpg") :mov513 (q/load-image "000513.jpg") :mov514 (q/load-image "000514.jpg") :mov515 (q/load-image "000515.jpg") :mov516 (q/load-image "000516.jpg") :mov517 (q/load-image "000517.jpg") :mov518 (q/load-image "000518.jpg") :mov519 (q/load-image "000519.jpg") :mov520 (q/load-image "000520.jpg") :mov521 (q/load-image "000521.jpg") :mov522 (q/load-image "000522.jpg") :mov523 (q/load-image "000523.jpg") :mov524 (q/load-image "000524.jpg") :mov525 (q/load-image "000525.jpg") :mov526 (q/load-image "000526.jpg") :mov527 (q/load-image "000527.jpg") :mov528 (q/load-image "000528.jpg") :mov529 (q/load-image "000529.jpg") :mov530 (q/load-image "000530.jpg") :mov531 (q/load-image "000531.jpg") :mov532 (q/load-image "000532.jpg") :mov533 (q/load-image "000533.jpg") :mov534 (q/load-image "000534.jpg") :mov535 (q/load-image "000535.jpg") :mov536 (q/load-image "000536.jpg") :mov537 (q/load-image "000537.jpg") :mov538 (q/load-image "000538.jpg") :mov539 (q/load-image "000539.jpg") :mov540 (q/load-image "000540.jpg") :mov541 (q/load-image "000541.jpg") :mov542 (q/load-image "000542.jpg") :mov543 (q/load-image "000543.jpg") :mov544 (q/load-image "000544.jpg") :mov545 (q/load-image "000545.jpg") :mov546 (q/load-image "000546.jpg") :mov547 (q/load-image "000547.jpg") :mov548 (q/load-image "000548.jpg") :mov549 (q/load-image "000549.jpg") :mov550 (q/load-image "000550.jpg")
+#+end_src
+
+#+begin_src clojure :results silent :show-process t
+:mov48 :mov49 :mov50 :mov51 :mov52 :mov53 :mov54 :mov55 :mov56 :mov57 :mov58 :mov59 :mov60 :mov61 :mov62 :mov63 :mov64 :mov65 :mov66 :mov67 :mov68 :mov69 :mov70 :mov71 :mov72 :mov73 :mov74 :mov75 :mov76 :mov77 :mov78 :mov79 :mov80 :mov81 :mov82 :mov83 :mov84 :mov85 :mov86 :mov87 :mov88 :mov89 :mov90 :mov91 :mov92 :mov93 :mov94 :mov95 :mov96 :mov97 :mov98 :mov99 :mov100 :mov101 :mov102 :mov103 :mov104 :mov105 :mov106 :mov107 :mov108 :mov109 :mov110 :mov111 :mov112 :mov113 :mov114 :mov115 :mov116 :mov117 :mov118 :mov119 :mov120 :mov121 :mov122 :mov123 :mov124 :mov125 :mov126 :mov127 :mov128 :mov129 :mov130 :mov131 :mov132 :mov133 :mov134 :mov135 :mov136 :mov137 :mov138 :mov139 :mov140 :mov141 :mov142 :mov143 :mov144 :mov145 :mov146 :mov147 :mov148 :mov149 :mov150 :mov151 :mov152 :mov153 :mov154 :mov155 :mov156 :mov157 :mov158 :mov159 :mov160 :mov161 :mov162 :mov163 :mov164 :mov165 :mov166 :mov167 :mov168 :mov169 :mov170 :mov171 :mov172 :mov173 :mov174 :mov175 :mov176 :mov177 :mov178 :mov179 :mov180 :mov181 :mov182 :mov183 :mov184 :mov185 :mov186 :mov187 :mov188 :mov189 :mov190 :mov191 :mov192 :mov193 :mov194 :mov195 :mov196 :mov197 :mov198 :mov199 :mov200 :mov201 :mov202 :mov203 :mov204 :mov205 :mov206 :mov207 :mov208 :mov209 :mov210 :mov211 :mov212 :mov213 :mov214 :mov215 :mov216 :mov217 :mov218 :mov219 :mov220 :mov221 :mov222 :mov223 :mov224 :mov225 :mov226 :mov227 :mov228 :mov229 :mov230 :mov231 :mov232 :mov233 :mov234 :mov235 :mov236 :mov237 :mov238 :mov239 :mov240 :mov241 :mov242 :mov243 :mov244 :mov245 :mov246 :mov247 :mov248 :mov249 :mov250 :mov251 :mov252 :mov253 :mov254 :mov255 :mov256 :mov257 :mov258 :mov259 :mov260 :mov261 :mov262 :mov263 :mov264 :mov265 :mov266 :mov267 :mov268 :mov269 :mov270 :mov271 :mov272 :mov273 :mov274 :mov275 :mov276 :mov277 :mov278 :mov279 :mov280 :mov281 :mov282 :mov283 :mov284 :mov285 :mov286 :mov287 :mov288 :mov289 :mov290 :mov291 :mov292 :mov293 :mov294 :mov295 :mov296 :mov297 :mov298 :mov299 :mov300 :mov301 :mov302 :mov303 :mov304 :mov305 :mov306 :mov307 :mov308 :mov309 :mov310 :mov311 :mov312 :mov313 :mov314 :mov315 :mov316 :mov317 :mov318 :mov319 :mov320 :mov321 :mov322 :mov323 :mov324 :mov325 :mov326 :mov327 :mov328 :mov329 :mov330 :mov331 :mov332 :mov333 :mov334 :mov335 :mov336 :mov337 :mov338 :mov339 :mov340 :mov341 :mov342 :mov343 :mov344 :mov345 :mov346 :mov347 :mov348 :mov349 :mov350 :mov351 :mov352 :mov353 :mov354 :mov355 :mov356 :mov357 :mov358 :mov359 :mov360 :mov361 :mov362 :mov363 :mov364 :mov365 :mov366 :mov367 :mov368 :mov369 :mov370 :mov371 :mov372 :mov373 :mov374 :mov375 :mov376 :mov377 :mov378 :mov379 :mov380 :mov381 :mov382 :mov383 :mov384 :mov385 :mov386 :mov387 :mov388 :mov389 :mov390 :mov391 :mov392 :mov393 :mov394 :mov395 :mov396 :mov397 :mov398 :mov399 :mov400 :mov401 :mov402 :mov403 :mov404 :mov405 :mov406 :mov407 :mov408 :mov409 :mov410 :mov411 :mov412 :mov413 :mov414 :mov415 :mov416 :mov417 :mov418 :mov419 :mov420 :mov421 :mov422 :mov423 :mov424 :mov425 :mov426 :mov427 :mov428 :mov429 :mov430 :mov431 :mov432 :mov433 :mov434 :mov435 :mov436 :mov437 :mov438 :mov439 :mov440 :mov441 :mov442 :mov443 :mov444 :mov445 :mov446 :mov447 :mov448 :mov449 :mov450 :mov451 :mov452 :mov453 :mov454 :mov455 :mov456 :mov457 :mov458 :mov459 :mov460 :mov461 :mov462 :mov463 :mov464 :mov465 :mov466 :mov467 :mov468 :mov469 :mov470 :mov471 :mov472 :mov473 :mov474 :mov475 :mov476 :mov477 :mov478 :mov479 :mov480 :mov481 :mov482 :mov483 :mov484 :mov485 :mov486 :mov487 :mov488 :mov489 :mov490 :mov491 :mov492 :mov493 :mov494 :mov495 :mov496 :mov497 :mov498 :mov499 :mov500 :mov501 :mov502 :mov503 :mov504 :mov505 :mov506 :mov507 :mov508 :mov509 :mov510 :mov511 :mov512 :mov513 :mov514 :mov515 :mov516 :mov517 :mov518 :mov519 :mov520 :mov521 :mov522 :mov523 :mov524 :mov525 :mov526 :mov527 :mov528 :mov529 :mov530 :mov531 :mov532 :mov533 :mov534 :mov535 :mov536 :mov537 :mov538 :mov539 :mov540 :mov541 :mov542 :mov543 :mov544 :mov545 :mov546 :mov547 :mov548 :mov549 :mov550])))
+#+end_src
+* more unhelpful
+** not the problem here
+#+begin_src sh
+ls ~/repos/ammerman-intersections/movie_in_processing/data
+#+end_src
+
+#+RESULTS:
+|           |   0 |
+| 00001.jpg |   1 |
+| 00002.jpg |   2 |
+| 00003.jpg |   3 |
+| 00004.jpg |   4 |
+| 00005.jpg |   5 |
+| 00006.jpg |   6 |
+| 00007.jpg |   7 |
+| 00008.jpg |   8 |
+| 00009.jpg |   9 |
+| 00010.jpg |  10 |
+| 00011.jpg |  11 |
+| 00012.jpg |  12 |
+| 00013.jpg |  13 |
+| 00014.jpg |  14 |
+| 00015.jpg |  15 |
+| 00016.jpg |  16 |
+| 00017.jpg |  17 |
+| 00018.jpg |  18 |
+| 00019.jpg |  19 |
+| 00020.jpg |  20 |
+| 00021.jpg |  21 |
+| 00022.jpg |  22 |
+| 00023.jpg |  23 |
+| 00024.jpg |  24 |
+| 00025.jpg |  25 |
+| 00026.jpg |  26 |
+| 00027.jpg |  27 |
+| 00028.jpg |  28 |
+| 00029.jpg |  29 |
+| 00030.jpg |  30 |
+| 00031.jpg |  31 |
+| 00032.jpg |  32 |
+| 00033.jpg |  33 |
+| 00034.jpg |  34 |
+| 00035.jpg |  35 |
+| 00036.jpg |  36 |
+| 00037.jpg |  37 |
+| 00038.jpg |  38 |
+| 00039.jpg |  39 |
+| 00040.jpg |  40 |
+| 00041.jpg |  41 |
+| 00042.jpg |  42 |
+| 00043.jpg |  43 |
+| 00044.jpg |  44 |
+| 00045.jpg |  45 |
+| 00046.jpg |  46 |
+| 00047.jpg |  47 |
+| 00048.jpg |  48 |
+| 00049.jpg |  49 |
+| 00050.jpg |  50 |
+| 00051.jpg |  51 |
+| 00052.jpg |  52 |
+| 00053.jpg |  53 |
+| 00054.jpg |  54 |
+| 00055.jpg |  55 |
+| 00056.jpg |  56 |
+| 00057.jpg |  57 |
+| 00058.jpg |  58 |
+| 00059.jpg |  59 |
+| 00060.jpg |  60 |
+| 00061.jpg |  61 |
+| 00062.jpg |  62 |
+| 00063.jpg |  63 |
+| 00064.jpg |  64 |
+| 00065.jpg |  65 |
+| 00066.jpg |  66 |
+| 00067.jpg |  67 |
+| 00068.jpg |  68 |
+| 00069.jpg |  69 |
+| 00070.jpg |  70 |
+| 00071.jpg |  71 |
+| 00072.jpg |  72 |
+| 00073.jpg |  73 |
+| 00074.jpg |  74 |
+| 00075.jpg |  75 |
+| 00076.jpg |  76 |
+| 00077.jpg |  77 |
+| 00078.jpg |  78 |
+| 00079.jpg |  79 |
+| 00080.jpg |  80 |
+| 00081.jpg |  81 |
+| 00082.jpg |  82 |
+| 00083.jpg |  83 |
+| 00084.jpg |  84 |
+| 00085.jpg |  85 |
+| 00086.jpg |  86 |
+| 00087.jpg |  87 |
+| 00088.jpg |  88 |
+| 00089.jpg |  89 |
+| 00090.jpg |  90 |
+| 00091.jpg |  91 |
+| 00092.jpg |  92 |
+| 00093.jpg |  93 |
+| 00094.jpg |  94 |
+| 00095.jpg |  95 |
+| 00096.jpg |  96 |
+| 00097.jpg |  97 |
+| 00098.jpg |  98 |
+| 00099.jpg |  99 |
+| 00100.jpg | 100 |
+| 00101.jpg | 101 |
+| 00102.jpg | 102 |
+| 00103.jpg | 103 |
+| 00104.jpg | 104 |
+| 00105.jpg | 105 |
+| 00106.jpg | 106 |
+| 00107.jpg | 107 |
+| 00108.jpg | 108 |
+| 00109.jpg | 109 |
+| 00110.jpg | 110 |
+| 00111.jpg | 111 |
+| 00112.jpg | 112 |
+| 00113.jpg | 113 |
+| 00114.jpg | 114 |
+| 00115.jpg | 115 |
+| 00116.jpg | 116 |
+| 00117.jpg | 117 |
+| 00118.jpg | 118 |
+| 00119.jpg | 119 |
+| 00120.jpg | 120 |
+| 00121.jpg | 121 |
+| 00122.jpg | 122 |
+| 00123.jpg | 123 |
+| 00124.jpg | 124 |
+| 00125.jpg | 125 |
+| 00126.jpg | 126 |
+| 00127.jpg | 127 |
+| 00128.jpg | 128 |
+| 00129.jpg | 129 |
+| 00130.jpg | 130 |
+| 00131.jpg | 131 |
+| 00132.jpg | 132 |
+| 00133.jpg | 133 |
+| 00134.jpg | 134 |
+| 00135.jpg | 135 |
+| 00136.jpg | 136 |
+| 00137.jpg | 137 |
+| 00138.jpg | 138 |
+| 00139.jpg | 139 |
+| 00140.jpg | 140 |
+| 00141.jpg | 141 |
+| 00142.jpg | 142 |
+| 00143.jpg | 143 |
+| 00144.jpg | 144 |
+| 00145.jpg | 145 |
+| 00146.jpg | 146 |
+| 00147.jpg | 147 |
+| 00148.jpg | 148 |
+| 00149.jpg | 149 |
+| 00150.jpg | 150 |
+| 00151.jpg | 151 |
+| 00152.jpg | 152 |
+| 00153.jpg | 153 |
+| 00154.jpg | 154 |
+| 00155.jpg | 155 |
+| 00156.jpg | 156 |
+| 00157.jpg | 157 |
+| 00158.jpg | 158 |
+| 00159.jpg | 159 |
+| 00160.jpg | 160 |
+| 00161.jpg | 161 |
+| 00162.jpg | 162 |
+| 00163.jpg | 163 |
+| 00164.jpg | 164 |
+| 00165.jpg | 165 |
+| 00166.jpg | 166 |
+| 00167.jpg | 167 |
+| 00168.jpg | 168 |
+| 00169.jpg | 169 |
+| 00170.jpg | 170 |
+| 00171.jpg | 171 |
+| 00172.jpg | 172 |
+| 00173.jpg | 173 |
+| 00174.jpg | 174 |
+| 00175.jpg | 175 |
+| 00176.jpg | 176 |
+| 00177.jpg | 177 |
+| 00178.jpg | 178 |
+| 00179.jpg | 179 |
+| 00180.jpg | 180 |
+| 00181.jpg | 181 |
+| 00182.jpg | 182 |
+| 00183.jpg | 183 |
+| 00184.jpg | 184 |
+| 00185.jpg | 185 |
+| 00186.jpg | 186 |
+| 00187.jpg | 187 |
+| 00188.jpg | 188 |
+| 00189.jpg | 189 |
+| 00190.jpg | 190 |
+| 00191.jpg | 191 |
+| 00192.jpg | 192 |
+| 00193.jpg | 193 |
+| 00194.jpg | 194 |
+| 00195.jpg | 195 |
+| 00196.jpg | 196 |
+| 00197.jpg | 197 |
+| 00198.jpg | 198 |
+| 00199.jpg | 199 |
+| 00200.jpg | 200 |
+| 00201.jpg | 201 |
+| 00202.jpg | 202 |
+| 00203.jpg | 203 |
+| 00204.jpg | 204 |
+| 00205.jpg | 205 |
+| 00206.jpg | 206 |
+| 00207.jpg | 207 |
+| 00208.jpg | 208 |
+| 00209.jpg | 209 |
+| 00210.jpg | 210 |
+| 00211.jpg | 211 |
+| 00212.jpg | 212 |
+| 00213.jpg | 213 |
+| 00214.jpg | 214 |
+| 00215.jpg | 215 |
+| 00216.jpg | 216 |
+| 00217.jpg | 217 |
+| 00218.jpg | 218 |
+| 00219.jpg | 219 |
+| 00220.jpg | 220 |
+| 00221.jpg | 221 |
+| 00222.jpg | 222 |
+| 00223.jpg | 223 |
+| 00224.jpg | 224 |
+| 00225.jpg | 225 |
+| 00226.jpg | 226 |
+| 00227.jpg | 227 |
+| 00228.jpg | 228 |
+| 00229.jpg | 229 |
+| 00230.jpg | 230 |
+| 00231.jpg | 231 |
+| 00232.jpg | 232 |
+| 00233.jpg | 233 |
+| 00234.jpg | 234 |
+| 00235.jpg | 235 |
+| 00236.jpg | 236 |
+| 00237.jpg | 237 |
+| 00238.jpg | 238 |
+| 00239.jpg | 239 |
+| 00240.jpg | 240 |
+| 00241.jpg | 241 |
+| 00242.jpg | 242 |
+| 00243.jpg | 243 |
+| 00244.jpg | 244 |
+| 00245.jpg | 245 |
+| 00246.jpg | 246 |
+| 00247.jpg | 247 |
+| 00248.jpg | 248 |
+| 00249.jpg | 249 |
+| 00250.jpg | 250 |
+| 00251.jpg | 251 |
+| 00252.jpg | 252 |
+| 00253.jpg | 253 |
+| 00254.jpg | 254 |
+| 00255.jpg | 255 |
+| 00256.jpg | 256 |
+| 00257.jpg | 257 |
+| 00258.jpg | 258 |
+| 00259.jpg | 259 |
+| 00260.jpg | 260 |
+| 00261.jpg | 261 |
+| 00262.jpg | 262 |
+| 00263.jpg | 263 |
+| 00264.jpg | 264 |
+| 00265.jpg | 265 |
+| 00266.jpg | 266 |
+| 00267.jpg | 267 |
+| 00268.jpg | 268 |
+| 00269.jpg | 269 |
+| 00270.jpg | 270 |
+| 00271.jpg | 271 |
+| 00272.jpg | 272 |
+| 00273.jpg | 273 |
+| 00274.jpg | 274 |
+| 00275.jpg | 275 |
+| 00276.jpg | 276 |
+| 00277.jpg | 277 |
+| 00278.jpg | 278 |
+| 00279.jpg | 279 |
+| 00280.jpg | 280 |
+| 00281.jpg | 281 |
+| 00282.jpg | 282 |
+| 00283.jpg | 283 |
+| 00284.jpg | 284 |
+| 00285.jpg | 285 |
+| 00286.jpg | 286 |
+| 00287.jpg | 287 |
+| 00288.jpg | 288 |
+| 00289.jpg | 289 |
+| 00290.jpg | 290 |
+| 00291.jpg | 291 |
+| 00292.jpg | 292 |
+| 00293.jpg | 293 |
+| 00294.jpg | 294 |
+| 00295.jpg | 295 |
+| 00296.jpg | 296 |
+| 00297.jpg | 297 |
+| 00298.jpg | 298 |
+| 00299.jpg | 299 |
+| 00300.jpg | 300 |
+| 00301.jpg | 301 |
+| 00302.jpg | 302 |
+| 00303.jpg | 303 |
+| 00304.jpg | 304 |
+| 00305.jpg | 305 |
+| 00306.jpg | 306 |
+| 00307.jpg | 307 |
+| 00308.jpg | 308 |
+| 00309.jpg | 309 |
+| 00310.jpg | 310 |
+| 00311.jpg | 311 |
+| 00312.jpg | 312 |
+| 00313.jpg | 313 |
+| 00314.jpg | 314 |
+| 00315.jpg | 315 |
+| 00316.jpg | 316 |
+| 00317.jpg | 317 |
+| 00318.jpg | 318 |
+| 00319.jpg | 319 |
+| 00320.jpg | 320 |
+| 00321.jpg | 321 |
+| 00322.jpg | 322 |
+| 00323.jpg | 323 |
+| 00324.jpg | 324 |
+| 00325.jpg | 325 |
+| 00326.jpg | 326 |
+| 00327.jpg | 327 |
+| 00328.jpg | 328 |
+| 00329.jpg | 329 |
+| 00330.jpg | 330 |
+| 00331.jpg | 331 |
+| 00332.jpg | 332 |
+| 00333.jpg | 333 |
+| 00334.jpg | 334 |
+| 00335.jpg | 335 |
+| 00336.jpg | 336 |
+| 00337.jpg | 337 |
+| 00338.jpg | 338 |
+| 00339.jpg | 339 |
+| 00340.jpg | 340 |
+| 00341.jpg | 341 |
+| 00342.jpg | 342 |
+| 00343.jpg | 343 |
+| 00344.jpg | 344 |
+| 00345.jpg | 345 |
+| 00346.jpg | 346 |
+| 00347.jpg | 347 |
+| 00348.jpg | 348 |
+| 00349.jpg | 349 |
+| 00350.jpg | 350 |
+| 00351.jpg | 351 |
+| 00352.jpg | 352 |
+| 00353.jpg | 353 |
+| 00354.jpg | 354 |
+| 00355.jpg | 355 |
+| 00356.jpg | 356 |
+| 00357.jpg | 357 |
+| 00358.jpg | 358 |
+| 00359.jpg | 359 |
+| 00360.jpg | 360 |
+| 00361.jpg | 361 |
+| 00362.jpg | 362 |
+| 00363.jpg | 363 |
+| 00364.jpg | 364 |
+| 00365.jpg | 365 |
+| 00366.jpg | 366 |
+| 00367.jpg | 367 |
+| 00368.jpg | 368 |
+| 00369.jpg | 369 |
+| 00370.jpg | 370 |
+| 00371.jpg | 371 |
+| 00372.jpg | 372 |
+| 00373.jpg | 373 |
+| 00374.jpg | 374 |
+| 00375.jpg | 375 |
+| 00376.jpg | 376 |
+| 00377.jpg | 377 |
+| 00378.jpg | 378 |
+| 00379.jpg | 379 |
+| 00380.jpg | 380 |
+| 00381.jpg | 381 |
+| 00382.jpg | 382 |
+| 00383.jpg | 383 |
+| 00384.jpg | 384 |
+| 00385.jpg | 385 |
+| 00386.jpg | 386 |
+| 00387.jpg | 387 |
+| 00388.jpg | 388 |
+| 00389.jpg | 389 |
+| 00390.jpg | 390 |
+| 00391.jpg | 391 |
+| 00392.jpg | 392 |
+| 00393.jpg | 393 |
+| 00394.jpg | 394 |
+| 00395.jpg | 395 |
+| 00396.jpg | 396 |
+| 00397.jpg | 397 |
+| 00398.jpg | 398 |
+| 00399.jpg | 399 |
+| 00400.jpg | 400 |
+| 00401.jpg | 401 |
+| 00402.jpg | 402 |
+| 00403.jpg | 403 |
+| 00404.jpg | 404 |
+| 00405.jpg | 405 |
+| 00406.jpg | 406 |
+| 00407.jpg | 407 |
+| 00408.jpg | 408 |
+| 00409.jpg | 409 |
+| 00410.jpg | 410 |
+| 00411.jpg | 411 |
+| 00412.jpg | 412 |
+| 00413.jpg | 413 |
+| 00414.jpg | 414 |
+| 00415.jpg | 415 |
+| 00416.jpg | 416 |
+| 00417.jpg | 417 |
+| 00418.jpg | 418 |
+| 00419.jpg | 419 |
+| 00420.jpg | 420 |
+| 00421.jpg | 421 |
+| 00422.jpg | 422 |
+| 00423.jpg | 423 |
+| 00424.jpg | 424 |
+| 00425.jpg | 425 |
+| 00426.jpg | 426 |
+| 00427.jpg | 427 |
+| 00428.jpg | 428 |
+| 00429.jpg | 429 |
+| 00430.jpg | 430 |
+| 00431.jpg | 431 |
+| 00432.jpg | 432 |
+| 00433.jpg | 433 |
+| 00434.jpg | 434 |
+| 00435.jpg | 435 |
+| 00436.jpg | 436 |
+| 00437.jpg | 437 |
+| 00438.jpg | 438 |
+| 00439.jpg | 439 |
+| 00440.jpg | 440 |
+| 00441.jpg | 441 |
+| 00442.jpg | 442 |
+| 00443.jpg | 443 |
+| 00444.jpg | 444 |
+| 00445.jpg | 445 |
+| 00446.jpg | 446 |
+| 00447.jpg | 447 |
+| 00448.jpg | 448 |
+| 00449.jpg | 449 |
+| 00450.jpg | 450 |
+| 00451.jpg | 451 |
+| 00452.jpg | 452 |
+| 00453.jpg | 453 |
+| 00454.jpg | 454 |
+| 00455.jpg | 455 |
+| 00456.jpg | 456 |
+| 00457.jpg | 457 |
+| 00458.jpg | 458 |
+| 00459.jpg | 459 |
+| 00460.jpg | 460 |
+| 00461.jpg | 461 |
+| 00462.jpg | 462 |
+| 00463.jpg | 463 |
+| 00464.jpg | 464 |
+| 00465.jpg | 465 |
+| 00466.jpg | 466 |
+| 00467.jpg | 467 |
+| 00468.jpg | 468 |
+| 00469.jpg | 469 |
+| 00470.jpg | 470 |
+| 00471.jpg | 471 |
+| 00472.jpg | 472 |
+| 00473.jpg | 473 |
+| 00474.jpg | 474 |
+| 00475.jpg | 475 |
+| 00476.jpg | 476 |
+| 00477.jpg | 477 |
+| 00478.jpg | 478 |
+| 00479.jpg | 479 |
+| 00480.jpg | 480 |
+| 00481.jpg | 481 |
+| 00482.jpg | 482 |
+| 00483.jpg | 483 |
+| 00484.jpg | 484 |
+| 00485.jpg | 485 |
+| 00486.jpg | 486 |
+| 00487.jpg | 487 |
+| 00488.jpg | 488 |
+| 00489.jpg | 489 |
+| 00490.jpg | 490 |
+| 00491.jpg | 491 |
+| 00492.jpg | 492 |
+| 00493.jpg | 493 |
+| 00494.jpg | 494 |
+| 00495.jpg | 495 |
+| 00496.jpg | 496 |
+| 00497.jpg | 497 |
+| 00498.jpg | 498 |
+| 00499.jpg | 499 |
+| 00500.jpg | 500 |
+| 00501.jpg | 501 |
+| 00502.jpg | 502 |
+| 00503.jpg | 503 |
+| 00504.jpg | 504 |
+| 00505.jpg | 505 |
+| 00506.jpg | 506 |
+| 00507.jpg | 507 |
+| 00508.jpg | 508 |
+| 00509.jpg | 509 |
+| 00510.jpg | 510 |
+| 00511.jpg | 511 |
+| 00512.jpg | 512 |
+| 00513.jpg | 513 |
+| 00514.jpg | 514 |
+| 00515.jpg | 515 |
+| 00516.jpg | 516 |
+| 00517.jpg | 517 |
+| 00518.jpg | 518 |
+| 00519.jpg | 519 |
+| 00520.jpg | 520 |
+| 00521.jpg | 521 |
+| 00522.jpg | 522 |
+| 00523.jpg | 523 |
+| 00524.jpg | 524 |
+| 00525.jpg | 525 |
+| 00526.jpg | 526 |
+| 00527.jpg | 527 |
+| 00528.jpg | 528 |
+| 00529.jpg | 529 |
+| 00530.jpg | 530 |
+| 00531.jpg | 531 |
+| 00532.jpg | 532 |
+| 00533.jpg | 533 |
+| 00534.jpg | 534 |
+| 00535.jpg | 535 |
+| 00536.jpg | 536 |
+| 00537.jpg | 537 |
+| 00538.jpg | 538 |
+| 00539.jpg | 539 |
+| 00540.jpg | 540 |
+| 00541.jpg | 541 |
+| 00542.jpg | 542 |
+| 00543.jpg | 543 |
+| 00544.jpg | 544 |
+| 00545.jpg | 545 |
+| 00546.jpg | 546 |
+| 00547.jpg | 547 |
+| 00548.jpg | 548 |
+| 00549.jpg | 549 |
+| 00550.jpg | 550 |
+| 00551.jpg | 551 |
+| 00552.jpg | 552 |
+| 00553.jpg | 553 |
+| 00554.jpg | 554 |
+| 00555.jpg | 555 |
+| 00556.jpg | 556 |
+| 00557.jpg | 557 |
+| 00558.jpg | 558 |
+| 00559.jpg | 559 |
+| 00560.jpg | 560 |
+| 00561.jpg | 561 |
+| 00562.jpg | 562 |
+| 00563.jpg | 563 |
+| 00564.jpg | 564 |
+| 00565.jpg | 565 |
+| 00566.jpg | 566 |
+| 00567.jpg | 567 |
+| 00568.jpg | 568 |
+| 00569.jpg | 569 |
+| 00570.jpg | 570 |
+| 00571.jpg | 571 |
+| 00572.jpg | 572 |
+| 00573.jpg | 573 |
+| 00574.jpg | 574 |
+| 00575.jpg | 575 |
+| 00576.jpg | 576 |
+| 00577.jpg | 577 |
+| 00578.jpg | 578 |
+| 00579.jpg | 579 |
+| 00580.jpg | 580 |
+| 00581.jpg | 581 |
+| 00582.jpg | 582 |
+| 00583.jpg | 583 |
+| 00584.jpg | 584 |
+| 00585.jpg | 585 |
+| 00586.jpg | 586 |
+| 00587.jpg | 587 |
+| 00588.jpg | 588 |
+| 00589.jpg | 589 |
+| 00590.jpg | 590 |
+|           |     |
