@@ -1,5 +1,6 @@
 * An explanation
-This repository contains many threads and tendrils that pertain to a presentation given at Connecticut College in 2018. The substance of the presentation itself--that is, the contents of what were read and displayed, in all their bitter glory--are primarily to be found in [final-draft.org](intersections-2018/final-draft.org)
+This repository contains many threads and tendrils that pertain to a presentation given at Connecticut College in 2018. The substance of the presentation itself--that is, the contents of what were read and displayed, in all their bitter glory--are primarily to be found in the file titled[[https://github.com/cicerojones/intersections-2018/blob/master/final-draft.org][final-draft.org]] in this repository.
+
 * Finalize Ammerman Presentation Pieces
 #+begin_src clojure :results silent :show-process t
 (for [n (range 5)] (rand-int 8))
