@@ -1,0 +1,234 @@
+* Part I
+** Intro to Format
+
+The outline that I sketched in my proposal for this presentation stated that this would be a unique kind of live-coding, lecture-demonstration. So, on the left you'll be seeing the document that contains the text I am working off, as well as bits of code and various markup characters and symbols that I'm using to generate the sounds you hear and the images you see to the right.
+
+What should you choose to focus on? 
+
+Yes.
+** Title and Questions
+
+The title Different Trains, which is a reference and tribute to a Steve Reich piece of the same name, among other things evokes a very 19th Century form of mobility and organization. But my topic here is a 21st Century effort--similarly large in scope, top-down and potentially landscape-altering--to "enhance" our educational system. But what relevance is all of this, to us, here, at this arts and technology symposium? 
+
+# What is this bandwagon and why hop off? 
+
+0:00:58 
+
+** An explanation and background
+In my proposal, I asserted that this particular 21st Century effort, which for convenience sake we'll say is being lead by the National Science Foundation, a U.S. government agency funded to the tune of $7.5 billion in 2016, posed a threat to artists' livelihoods, not to mention the general well-being, or even soul, of our society. Is that just hyperbole? Isn't it unfair to lay it all at the feet of your friendly neighborhood scientist and her boss at the NSF? 
+
+To get some background, let's review a little of what you need to know about the history of formal education and various educational philosophies. A proper overview of education really is more of an endeavor suitable to a historian, so I'll just give you a quick gloss, with a bias towards recent U.S history. 
+
+The Trivium/Quadrivium of Classical Education; Scholasticism; Prussian model of Wilhelm von Humboldt; liberal arts colleges vs. research institutions; John Dewey, Piaget and Constructivism; agriculture and vocational training; GI-bill; home-school movement; Scopes-Monkey trial and creationism; Milton Friedman and vouchers and the growth of "educational choice" movement; The creation of Department of Education in 1979; educational reform beginning with NCLB, leading to CCSS Race to the Top and various efforts to define national standards; the influence of The Gates Foundation dysfunctional struggles between advocates of local, state and federal control; high-stakes testing College Board, project based learning; microschools; entrance of Google among other ed tech and for-profit organizations; flipped classrooms, blended learning; MOOCs; magnets, charters and vouchers.
+
+The phrase that comes to mind is "free-for-all," 
+
+# and not in the monetary sense!
+
+0:02:46 
+** What is STEM? Why does it say about itself?
+So, specifically what role has science education played throughout all that, and what about the push behind all things science, technology, engineering and mathematics? And where, you might ask are the artists? Indeed.
+
+# educator
+
+As someone trained as a musician, worked for nearly 20 years as an educator, but who now spends a lot of time at his computer, I'm interested in things that are sometimes used to distinguish the various sciences from "the arts."
+
+I'd like to offer up perhaps one example of such a distinction: According to one of the contributors to the National Research Council's /A Framework for K-12 Science Education/, we know that "science is the key to solving the world's most pressing challenges." [x2] Now, perhaps that author would like to reconsider exactly how he or she chose to word that. But probably the main reason to do so would simply be to make his argument more palatable, not because he doubted its validity.
+
+How do we feel about this assertion? Or, as presumably a scientist would sooner ask, what is the evidence that supports this hypothesis?
+
+The ecological problems on the horizon, and their political and economic repercussions, are, of course, the most obvious thing we can point to as evidence that good science is critical. 
+
+# And indeed, preventing or mitigating the effect of natural catastrophe seems a good reason to value science education. 
+
+But, moving beyond climate change and biological extinction, these arguments inevitably turn to both more diffuse questions of appreciating "the beauty and wonder of science", as well as more nitty-gritty problems of "career choice." We have very quickly moved out of the lab and away from problems for which the scientific method was tuned. 
+
+At the risk of re-playing another tired tune in the long-simmering "Two Cultures" debate, I can't help but notice a few things.
+0:04:56 
+** critique
+First of all, why has science education in the United States failed? 
+
+by the end of 12th grade,
+all students have some appreciation of the beauty and wonder of science; possess
+sufficient knowledge of science and engineering to engage in public discussions on
+related issues; are careful consumers of scientific and technological information
+related to their everyday lives; are able to continue to learn about science outside
+school; and have the skills to enter careers of their choice, including (but not lim-
+ited to) careers in science, engineering, and technology.
+Currently, K-12 science education in the United States fails to achieve these
+outcomes, in part because it is not organized systematically across multiple years
+of school, emphasizes discrete facts with a focus on breadth over depth, and
+does not provide students with engaging opportunities to experience how science
+is actually done. The framework is designed to directly address and overcome
+these weaknesses.
+
+Who was designing it till now? Has there not been enough scientific method applied in designing a science education? 
+
+Now, as a self-identified--for lack of a better term--"digital artist/humanist," I must also note that the word art does not appear as such. And the only appearance of the word "humanities" is in the context of explaining why topics from social or behavioral science do not appear within the NRC framework.
+
+This may seem like an unfair complaint--why mention the arts and humanities in some arcane framework about science? 
+
+# lack of imagination
+I take such omissions as clues to a pervasive mindset shared by too many major players in education policy. 
+
+# I see a lack of imagination, first of all, at odds with the authors' assertion that science is just another "creative human endeavor." 
+
+The authors assert their belief that, in making a science standard, there needs to "coherence across all subject areas of the K-12 curriculum." 
+
+Allow me to quote at some length:
+
+#+begin_quote
+For example, students’ writing and reading, particularly nonfiction, can
+cut across science and literacy learning. Uses of mathematical concepts and tools
+are critical to scientific progress and understanding. Examples from history of
+how scientists developed and argued about evidence for different scientific theo-
+ries could support students’ understanding of how their own classroom scientific
+practices play a role in validating knowledge. Similarly, there should be coherence
+between science and social studies (as these terms are currently used in schools).
+Applications of natural sciences and engineering to address important global
+issues—such as climate change, the production and distribution of food, the
+supply of water, and population growth—require knowledge from the social sci-
+ences about social systems, cultures, and economics; societal decisions about the
+advancement of science also require a knowledge of ethics. Basically, a coherent
+set of science standards will not be sufficient to prepare citizens for the 21st cen-
+tury unless there is also coherence across all subject areas of the K-12 curriculum.
+#+end_quote
+
+
+# But, at the risk of over-generalizing, scientists seem much more interested in two other things also mentioned as characteristic: inherent logic and consistency, on the one hand, and, most problematically, science's universality. 
+
+By contrast, an attempt to draw up a similar Standards document in the arts referenced the mathematics CC standard throughout, including it wholesale in an appendix. 
+
+Not only this, but, indeed, featured in the Arts Standards proposal itself, was the very effort to make "alignment decisions," that is, to expose "similarities in the types of habits, skills, and abilities" between the Math and ELA standards on the one hand, and the Arts Standards on the other.
+
+Which brings us to perhaps the most important fundamental difference. Arts educators must reach outwards--the precarious status of the arts within our society demands as much. Scientists, however, appear to know that the decks are stacked in their favor--utilitas vincit omnia.
+
+
+** progress, at all costs
+
+# While this document was published in 2012, and presumably largely drawn up well before, 
+
+it is hard not to notice something else that is missing.
+
+While there is a great deal of emphasis on the importance of studying engineering and technology, there doesn't seem to be any recognition of the potential drawbacks that often accompany various examples of apparent "progress." There's a sense of obligatory recognition that "geopoltical" or "social" factors necessarily influence the environment in which science takes place, but obviously no misgivings about what they state at the beginning: "science, engineering, and technology permeate nearly every facet of modern life." 
+
+Clearly, advances in the various STEM discplines have brought a tangible sense of progress around the globe. But, without being more upfront about the costs and unintended consequences (ethics is first mentioned as one another engineering "constraint" among many, one that may not even be permanent or absolute)
+
+the whole endeavor is likely to be so much fodder to the growing numbers of legitimate techno-skeptics among the scientists and technologists in recent years.
+
+And, unsurprisingly, there is no mention of obsolescence, or of the fact that technologies are subject to "lock-in," in which ad hoc designs, most of which solved some initial problem that eventually is obviated, nevertheless sticks around long enough to amount to an unfortunate encrustation
+
+0:09:39 
+** against insularity
+But this isn't an argument that we don't need better science education.
+
+# But this isn't an argument against the teaching of science. My own abysmal experience in science classes helps me attest to need for better teaching of science
+
+# Indeed the points I raise above perhaps focus exceedingly narrowly on the T and E in STEM. 
+
+# A more thorough and deliberate analysis would move beyond what might seem superficial qualms and take issue with something about the intellectual or moral core of science and mathematics.
+
+Nor do I wish to deny the primacy of science for providing important solutions for the very problems it helped create. You might even say it is an argument /for/ a particular approach to accomplishing that goal of better science education.
+
+Whatever the case, it is unequivocally an argument against the insularity that comes from epistemic arrogance and chauvinism--my knowledge is better than yours--at the very moment we most need the things artists are customarily associated with: creativity and inspiration and even critical thinking.
+
+And the attitude of assuredness that comes along with the ever more insistent drumbeat that better and increased STEM education holds the key to a better future and a better job may very well be detrimental to its own goal.
+
+# The strong likelihood that these efforts will almost assuredly further marginalize the already "extracurricular" pursuit of the arts in our educational system just adds insult to the injury.
+
+# So, sure, if we want more kids taking calculus and computer science, we can make that a goal. 
+
+# A more enlightened goal might be to have kids not just learn about cellular respiration, but also planned obsolescence; not just Newton's laws but how to represent them in, say, a digital physical modeling environment. And most importantly, if we wants kids who are capable of dealing with the increased complexity that our short-sighted, self-interested consumption of yet more technological Progress subtly and indirectly contributed to, we would do well to consider a greater respect for and cultivation of expressivity and introspection and the autotelic.
+
+In other words, we need advocates for the arts from outside art, who understand that art is not just frivolous but productive of a unique and valuable kind of knowledge. 
+
+0:11:40 
+* Part II 
+** Transition
+0:11:59 
+Having spent rather too much time on what some might perceive as niggling or minor qualms, I'm also less inclined to puff up the case for what exactly makes art valuable as a separate and distinct enterprise unto itself.
+
+Suffice to say, I will outline briefly something that I like to think offers some advantages as a corrective or counter measure to the STEM push. 
+
+Additionally, in conceiving of this model and especially in creating this presentation, I've drawn on a few examples, which I'll mention below, in which "STEM endeavors" overlap nicely with the arts. 
+
+** Digital Humanists
+0:12:35 
+Some of the tools I'm using here and more generally in my work include the concept of Literate programming, the influence of which you could argue shines through in the document you see to the left. Literate programming...
+
+Additionally, the application, Emacs, I'm using to run this whole thing, and host of other applications that are designated Free Software have been sued.
+# , and mention a few people and forces that, were they to form a significant part of some STEM-focused curriculum, I would find myself much less skeptical of the whole enterprise.
+
+# I want to specifically name Donald Knuth for the example of, one, 
+
+# A similarly influential and mythical figure, though known more as a programmer and tireless advocate than as a scholar, is Richard Stallman, 
+
+# who's initial efforts are responsible for 
+Finally, deeper within the confines of computer science proper, is the effort to create the language that I've ultimately used to bind all these elements together. Lisp is more of an idea than anything, but in its various guises and implementations, in the case of my current code as Emacs Lisp and Clojure, it remains a tool for thinking through, to quote from SICP, our intuitions about process, 
+
+# a quote that has always sounded like it could have come from an artist like Sol Lewitt.
+
+** Names and Languages
+0:13:56 
+To me, the most powerful metaphor we have, you might even say our only "natural" technology, is language. In SICP, a seminal Computer Science book, 
+
+# and in particular an accompanying video, the author says the following:
+
+Well, similarly, I think in the future people will look back and say, yes, those primitives in the 20th century were
+fiddling around with these gadgets called computers, but really what they were doing is starting to learn how to
+formalize intuitions about process, how to do things, starting to develop a way to talk precisely about how-to
+knowledge, 
+
+# as opposed to geometry that talks about what is true.
+
+"To develop a way to talk..." But I thought this was computer science? Well, of course, Abelson goes on to describe this "way to talk" as, essentially, the computer language that I've already mentioned Lisp.
+
+
+Another quote, this from poet and Columbia professor Kenneth Koch:
+
+One way to get a little more clarity on the subject [of the source of poetry] was suggested to me by a remark of Paul Valéry’s. Thinking about what could be expressed in poetry but not elsewhere, he said that poetry was a separate language or, more specifically, a “language within a language.” There would be, in that case, the ordinary language—for Valéry French, for us English—and, somehow existing inside its boundaries, another: “the language of poetry.”
+
+
+With these two examples in mind, I propose dividing up the conceptual space of an educational framework more equitably, into three languages or "language areas:" artistic, natural and formal. Digital art-making, or whatever you call what it is I'm trying to do here is one site where the three explicitly overlap:
+
+Briefly: 
+
+- /artistic language/ can refer to any artifact or practice that derives from our capacity to communicate through largely non-verbal means
+- /natural language/, a technical term borrowed from linguistics, can encompass both spoken and written communication 
+
+# as practiced by humans since prehistory
+
+- /formal language/ rather broadly encapsulates both mathematics and computer lanugages, which I consider to be "forms of communication/expression" that rely on a highly rigorous use of symbols
+
+I'd like to think that organizing a pedagogical practice around this notion of three "languages," which babble together wherever artists rely heavily on digital technology, offers better prospects for artists and the arts more generally in an age in thrall to STEM.
+
+** Defense of art as a way of thinking
+0:16:45 
+
+Now, it is obvious that what I'm outlining above is--as they like to say in the sciences--orthogonal to what the "STEM movement" is all about. I can't deny that this won't especially achieve the outcomes set out by the NRC. And of course what all that looks like in practice remains to be seen. 
+
+But, as I hope to make clear here, literate programming, the use of Free Software bearing a Stallman-approved license (no easy thing), and "applied computation" in settings like music and art, all touch on elements of STEM in ways that, apparently, STEM education reformers, are unsure how to reciprocate. 
+
+What results when you put it all together, as I have tried to do here? "Ambiguity" is an answer I'm perfectly happy with for now.
+
+I would argue that this ambiguity is a kind of thinking that the tidy scientific mode of experiencing the world 
+can't accept
+
+, and by definition, can't provide. But it is no less important, for reasons I could try to articulate, 
+
+enumerate, explicate. 
+
+But I don't want to deny you that experience yourself.
+
+So instead I wish to simply defend art as a way of thinking. To argue that it is a way of thinking that must be defended now in an age ever more convinced that it already knows what it needs to know next. The best Art provides something you need to know, but that you don't "need." (and that no one wants to pay for anymore--but that's another story). Try publishing that in a science journal.
+
+It's okay, it's good...If you walk away saying, I thought I knew what he/it meant while he was talking, but then when it was over, I couldn't really tell you what it was he was saying, or I thought he was saying. 
+
+Together we will have done a job, collaborated on a real time meaning, that no algorithm can do for you. That any multiple choice question will fail to do justice to. 
+
+And that should be celebrated. Art did its job, leaving you smarter and more confused, less certain and all the wiser for it.
+0:19:00 
+
+
+
+0:19:37 
