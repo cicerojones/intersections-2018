@@ -1,0 +1,479 @@
+* part I -- Introduction (Different Trains and what the STEM Bandwagon might be)
+** explanation of title (Range of Pathways for Artists? But this "Education")
+
+The title Different Trains is intended as a reference--and tribute--to the Steve Reich piece of the same name.
+
+In this case, I am drawing a comparison between a very 19th Century form of mobility and organization, on the one hand, and similarly large, top-down and potentially landscape-altering efforts to "enhance" our educational system, on the other.
+
+So, on some level this would appear to be about education, and the many ways that educational reform is playing and may yet still play out in the 21st Century.
+
+But in my proposal I asserted that these efforts, beyond their effect on educators in the arts and otherwise, are relevant more generally to practicing artists, as well.
+
+And, by alluding to the fact that some of the trains that Reich evoked in his piece were indeed Auschwitz-bound, I imply that there are some "trains" or pathways for us in the 21st Century that involve drastic or nightmarish fates for artists. It may of course be hyperbole of a rather cheap or distasteful sort to suggest that there is a remote parallel to "After Auschwitz--no poetry" in "After Common Core, no NEA-funding" or something.
+
+But in an era when so much power is dubious concentrated in the remote servers of companies with bland, simplistic mission statements like, "Don't Be Evil" or "Make the world more connected and open," it may be excusable to consider the darker implications of what is otherwise presented as "customer-driven" or just inevitable.
+
+So let's consider a vision of education currently in vogue--one that unquestioningly valorizes "STEM skills"--and ask if it is overstating the case to propose that this threatens artists livelihoods, not to mention the general well-being, or even "soul," of our society.
+
+** Primer on 21st Century Education
+
+So, to bring up to speed, let's just review a little of what you need to know about the history of formal/school education and various educational philosophies?
+
+Now, what do you need to know about educational reform movements? 
+
+Lastly, what about the push behind all things STEM?
+
+** Let's talk more deeply about science, and left-brain or "logical/linear" thinking in general
+
+What do scientists tell us about what they do?
+
+Three things that come up a lot are make predictions, conduct experiments and gather results that are reproducible, all of which serves the greater purpose of coming up with explanations, which are generally quantitative models that are used to make those predictions.
+
+And what are these explanations about? Nothing less than universe itself. Any "natural" phenomenon that can be accurately and reliably described or experienced. In some cases this means "empirical" in the sense of verifiable with out senses, but more and more we rely on external tools, instruments that extend the capabilities of our senses (which raises questions to some about the degree to which scientists, like the factory workers Marx and Engels surveyed, become alienated from the sensory experience and eventually conditioned by this detachment from the physical world).
+
+It thus tells us about what is or what will be. In must cases it doesn't explicitly tell us anything normative, what should be, though this is often what's most important to us. Though normative questions typically fall within the province of philosophy or ethics, science is increasingly called on to furnish justifications of what we should do, or what we must do, within some cultural context like a court of law or a policy prescription for some government agency (of course this is not universally the case and the degree to which "scientific truth" plays a part in deciding human fates is a point of some contention in the US and around the world today).
+
+All of this is known, and widely accepted, and so much the better as far as many highly influential people go. What is there to object to?
+
+The problem, as the staunch defenders of rationality would have us all know, is not with science but with people misusing science or "doing it wrong" (as they like to say on the internets).
+
+If only we could eliminate the source of design flaws that is us! (But doesn't this sound like the almost-plausible argument that "guns don't kill people--people kill people." And as one bumper sticker I saw then extended this--and pencils mispell things and...)
+
+But this isn't an argument against the teaching of science or the need for better teaching of science. You might even say it is an argument for a particular approach to accomplishing that goal of better science education.
+
+It is, however, an argument against the insularity that comes from epistemic arrogance and chauvinism--my knowledge is better than yours--at the very moment we most need the things artists are customarily associated with: creativity and inspiration and even critical thinking (which requires a highly evolved language faculty), those intangibles unquantifiable that flourish amid uncertainty and heighten awareness of the qualitative.
+
+And the attitude of assuredness that comes along with the ever more insistent drumbeat that better and increased STEM education holds the key to a better future and a better job is not just insulting but may very well be detrimental to its own goal (which is to say nothing of the possibility that it might even be held in error).
+
+So, sure, if we want more kids taking calculus and computer science, we can make that a goal. And various non- and for-profit organizations or companies can compete for fat NSF contracts (which admittedly are becoming fewer and fewer, and so much the worse) or state and local education "market share" os one way to accomplish that. But if we want happier, healthier kids, whatever that might mean, to say nothing of kids who are capable of dealing with the increased complexity we've all subtly and indirectly contributed to, we would do well to consider a greater respect for and cultivation of expressivity and introspection and the autotelic.
+
+In other words, we need advocates for the arts from outside art, who understand that art is not just frivolous but productive of a unique and valuable kind of knowledge. The varied experiences it engenders are worthy of their own respect and esteemed place in our culture, especially if the economic status afforded artists continues to be eaten away by the forces that lead people to see STEM as essential and arts as extra.
+
+To help make the point that art has an important place in this scheme, I've chosen to highlight ways in which STEM disciplines lend themselves, acknowledge, borrow from or otherwise overlap nicely with the arts, without simply colonizing them, or applying explanatory methods in ways that fundamentally mischaracterize or otherwise fail to respect what makes each art form, each artwork and each artistic experience unique.
+
+Indeed it is this very uniqueness that poses a problem, because science and scientists are always on the lookout for models that can helpfully reduce out extraneous details in order to fully understand and analyze the various components of some kind of phenomenon.
+
+But this reductionism, or rather the unforseen consequences that result from over-eager or misapplied reduction, is a huge mistake in the arts, if not often in the natural world itself, or at least anywhere humans and societies are concerned.
+
+There's an implicit belief that knowledge that does not arise from applications of the scientific method, or that worse contravenes some aspect of the scientific method in the spirit of willful rebellion, is fundamentally different; while this may be a tempting if not undeniable conclusion, it lays the groundwork for a belief in the superiority, or at least a greater utility--and thus superiority if you're so inclined to follow out the logical consequences of one's beliefs--of scientific knowledge.
+
+But people are herd-like creatures. They value what other people value, sometimes simply because someone decided to value it in the first place for some random or not very well established reason. This thus sets into place a vicious cycle that eventually ends up with everyone getting some outcome that they prefer less than some other outcome that was possible earlier, but has since become unavailable while everyone was busy getting the things they thought they wanted, for what turned out to be not very good reasons.
+
+And when it comes to "a culture with more STEM skills," you have to wonder just what it is we will be getting. Will it be a more moral culture, where people value behaviors that contribute to the greater good, even though they apparently or temporarily inhibit me or cost me something I'd rather not pay? Will it somehow overcome the "flaws of human nature," whatever you take them to be, by some unforeseen type of mechanism--designed by all those new engineers creatively competing with another to get the greatest return on her investment in acquiring those skills--that circumvents those flaws?
+
+What will this culture think about free will, compassion, justice, and all those other difficult-to-quantify ideas or intangibles that somehow arise naturally wherever humans congregate long enough to care? What evidence is there that a savvier collection of science-minded individuals will get better results when it comes to navigating the unpredictability endemic to large numbers of robust, interacting parts? How will it not fall prey to the overconfidence that comes with apparent increases in technical prowess?
+
+And how does this "better" when it comes to science education not equate to "more" and thus come at the cost of less of something else? How do we determine the losers? Who gets to decide? And what becomes, not only of them, but the things we once valued that these "losers" produced? 
+
+The skeptical or contrarian school of philosophy that has come along for the ride with our transition to a post-industrial, "information" economy provides persistent evidence that all will not be well when people become more detached from the responsibility of making decisions about what matters. Does better or more science education produce thinkers more capable of solving intractable problems of human motivation and value? Why does this education, and our newfound appreciation for improved explanatory skill, not just empower people who will have the same failings as those who were in place before?
+
+Are we not telegraphing (to use a surreally old metaphor, given the context) the message, already suspected by young people, that we need better STEM education because those are the skills that matter more than others, sometimes so-called soft skills (the pejorative connotation of which is hard to miss)? How does this not become a self-fulfilling prophecy that alienates all those whose supposed soft-skills become less valuable as a result? Just what is it we are getting?
+
+And where do the artists go? More importantly, what becomes of the things that artists value when the culture they thought they helped shape has been turned away from their influence? Do we get science teachers who teach creativity better, who now exemplify what it means to be a creative thinker (instead of the sculptor or composer)? Do we convert painters into chemistry or physics teachers because they intuitvely understand color better?
+
+And who cares about such frivolous concerns in a society so blissed-out by the better understandings of nature and the better engineered designs that result? When we have automated away all the problems that resulted from insufficiently understood fundamental principles, what do we do with what remains, with all that time on our hands? Or instead with all the shapeless, endless "knowledge work" required (Powerpoint presentations and TED talk preparations) to just keep up with the demands made by the few puppet-pullers who actually own what is of value?
+
+Where is all this going, and why, again? I mean, /exactly/ why. Because we have to save the planet from ourselves, and it's not too late yet? Whatever the answer, it needs to be articulated, and just importantly it has to come with the rhetorical niceties needed to persaude whole classes of people who will be affected by a wholesale shift toward the techno-cracy. And that need for effective rhetoric means we require an understanding of and skill with language and communication and all the things whose value a reasonable person might begin to doubt, given some large scale shift to a calculating, analyzing, dissecting, double-blind trial running society.
+
+** So What "Is" science/STEM? And what does that have to do with art?
+
+Now having raised the question of ambiguity and referenced a particular version of educational reform, that presented by the NRC, it comes time to briefly examine what is contained in these STEM prescriptions, and what that really might mean for artists. How could this turn out badly for artists, and for our society more generally?
+
+** out of flow
+
+# ** context of education (leading to valorization of STEM--how is this threatening?)
+
+# The context I'd like to consider is, of course, right here, good ol' Earth, right now in 2018. More specifically, I'd like to situate us in that corner of Earth given over to "education," the idea that, superficially at least, explains the existence of these walls, these books, perhaps even these infernal machines, and indeed, our very presence here at this symposium.
+
+# # Dictionary definitions of "to educate" vary, but usually revolve around imparting "knowledge" or even just "information," Indeed, we are widely considered to be living in a "Information age." An age of "what." What is the most viewed YouTube video of all time? What's the most re-tweeted, liked, favorited, bookmarked, recommended...thing. What's on your mind, Will? What, what, what.
+
+# Do you think this is a good thing for artists? Is this a "good time to be an artist?" The sensible answer of course is that it depends. Which artists? Is it a good time to be a musician? Is it a good time to be a professional musician? Is is a good time to try to become a professional musician?
+
+# ** ambiguity of simple questions about education and the arts 
+# What about these questions: Is it a good time to be a teacher? Is it a good time to be a computer programmer?
+
+# Now, these questions are moot, loaded, disingenuous, facile, unanswerable. And yet such questions are vitally important to young people figuring out how who they are, and what they are going to choose to do with their lives.
+
+# But their answers are ambiguous, "merely subjective," difficult to establish with any certainty.
+
+# Well, in the face of such uncertainty we can ask, well, what /do/ we know? According to one of the contributors to the National Research Council's /A Framework for K-12 Science Education/, we know that "science is the key to solving the world's most pressing challenges." [x3]
+
+# Now, perhaps that author would like to reconsider exactly how he or she chose to word that. But probably the main reason to do so would simply be to make his argument more palatable, not because he doubted its validity.
+
+# And it's precisely this matter of certainty vs. ambiguity that art is especially well-suited to address.
+
+* part II -- What is Meaning in Science? (why is this Monolithic Monoculture?)
+** patterns vs. ambiguity
+
+I'd like to come back to that, so please hold that favorite word of mine--ambiguity, or just "ambiguous"--in your head for a little bit.
+
+Now, by so doing, you will be touching on another peculiar aspect of our age, which is the many demands placed on our attention during the course of an average day, when we are often required to suspend our awareness of one thing in order to devote ourselves to something else. The strain or cognitive cost of doing all this varies--keeping the word 'ambiguity' in mind hopefully won't be as hard as keeping the first 8 digits of the decimal representation of PI in your head 3.1415926 (...53589793...), which I'd also like you to do. Forgot already? Too bad. Should've been paying attention. No cheating. :)
+
+Wouldn't it be easier if we had some way to compress that arbitrary information, this random sequence of digits (it is widely asserted that the digits of pi are randomly distributed, but this has never been proved--so do we know it or not?). It turns out that the writer Issac Asimov came up with a way to remember the first 15--"How I want a drink, alcoholic of course, after the heavy lectures involving quantum mechanics." Where the length of each word--3 letters in "how", 1 letter in "I", 4 letters in "want," etc.--gives the digit in question.
+
+** Frameworks and NSF acronym (what is the gloss on Standards and Frameworks and ed reform?)
+
+This particular mnemonic is, unfortunately, not part of the /Framework for K-12 Science Education/. But in general, our minds are pretty highly attuned to looking for, identifying and remembering patterns--even where they don't exist. Acronyms are everywhere in education, from ROYGBIV to HOMES. If you trust Wikipedia, which I will not require of you, METS was once an acronym for Mathematics, Engineering, Technology and Science. 
+
+Now, as a longtime fan of a certain baseball team from New York City, I can tell you that this one resonates deeply with me. But for some reason, the director of the National Science Foundation expressed some "dislike" for this (presumably she was a Yankees fan).
+
+And so now, whenever we want to think about education policy, which, you may not have been paying attention to the Betsy DeVos confirmation hearings (or heard of the Common Core or Bill and Melinda Gates or Google Education), is happening a lot these days, we have a more memorable, less NY-centric, biased, term. We have a great "what." Tidy, concise, rolls off the tongue--it's become almost a meme.
+
+** The power of names and the inferences they make possible
+
+I refuse to say it, just like I refuse to say the name of the head of the executive branch of U.S. Federal Government. POTUS. Works for me.
+
+But what's the problem? What's in a name? Airy nothing a local habitation...
+
+For many, it simply stands for a need to improve science education, a laudable goal for anyone whoever had to memorize the order of the colors on the visible spectrum by imagining a Mr. Biv, middle name unknown. Or for anyone who ever checked out of a math or science class because a "sink or swim" atmosphere pervaded the classroom, or worse, who was ever actively dissauded from persuing a rigorous course of study because of some unspoken preconceptions of what a real scientist looks like.
+
+But there's more in a name--and to this name in particular--than just "local habitation." 
+
+The power that comes with naming is, 
+
+
+...
+
+...
+
+...
+
+* part III -- Why Should We Be Concerned?
+** What are some Current Trends and Concerns? (Because the litany)
+
+Because technology increases, it adds options, possibilities, ways of arranging those possibilities.
+
+Technology gives us the tools to manage complexity while also giving us more complexity.
+
+But also because I'm trying to talk about so much. Because as I see it's all interrelated.
+
+** the litany
+
+The various motivations and approaches of educational reform movements
+
+The increasing role of technology in our lives and in our pedagogy
+
+The concomitant growth of techno skepticism
+
+The rise of data-driven everything
+
+The increase in computational power
+
+The unfaltering ascent of STEM skills in our culture
+
+The ever marginal role of the arts and musicianship specifically
+
+The diminished value we place on things of limited practical (as opposed to cultural) utility
+
+The precarious place of people in an age of automation
+
+The limits of academia and scholarship to influence the larger culture
+
+The compromises we make and those we avoid making in the midst of system with no one really in control
+
+The alternative strands within the dominant strain of culture
+
+The growth of a collaborative software culture
+
+The fate of alternative organizational approaches
+
+The metaphor of language
+
+Our own fate as individuals, as a society, as a civilization, as a species, as a planet, as spiritual beings, as inheritors and as forbearers
+
+The failure of the imagination that it all represents
+
+** Move beyond the drawbacks
+
+What it risks being, on some level, is a compendium, a complete list of the things it touches on. A clearinghouse for ideas and trends and  evidence and hypotheses. 
+
+But I can't really do what I want simply by listing a bunch of "drawbacks to STEM," or doing some kind of cost-benefit analysis. I'm not offering some kind of refutation of an argument that we need better science education. This is just one person's nervous reaction to what I sense is happening, ans what i feel is missing, and what I believe is possible. So while limitations of space preclude me from offering any kind of fully spelled out alternative, a truly "different train"...
+
+Instead I have to transition to what art is "good for," even though baldly stating this goes against my grain, and even on some level betrays what's most important about what I want to convey.
+
+* part IV -- What Can We Do About it?
+** What All That Suggests To Me
+   :PROPERTIES:
+   :CREATED:  [2018-02-10 Sat 05:16]
+   :END:
+
+Consequently, I find myself reluctant to embrace something that seems, among other things, opposed to my best interests as a supposed "non-STEM" person.
+
+What I think is a more reasonable way to carve up the time and conceptual space we have, with perhaps some reapportionment or trimming here and there, is to focus on the varied means by which humans create meaning. Which I think of as coming from our capacity to express ourselves and communicate ideas in a range of ways that vary in the degree of formality they allow, the ambiguity they tolerate and the scope or generality with which they apply. This doesn't really have a lot to say explicitly about what we should value, or what we should do with these languages, but it does attempt to "meet halfway" the need for better problem-solving, better use of our tools and increased technological sophistication that STEM-centric reform seems to advocate.
+
+Which is just to say that the computer--and the "wiggle room" of what exactly that is remains a hugely underappreciated aspect of all this STEM talk--or, better, computational thinking has to be integrated into our "workflows" in a new way. "Integrate," however, does not mean "replace," or even "displace," though it's hard to see how that won't happen. But I'd argue it remains our best bet to stay relevant and even gives us an opportunity to shape the conversation, to direct the effort at "more and better" to reflect values that derive from, or even show some deference to, but at least have respect for humanistic traditions and approaches.
+
+Too often, recent overtures to those on a opposing side in the "war of the two cultures" seem to barely paper over some kind of distaste or disrespect for some aspect of the other side, even by those who sensibly question the very existence of "two" cultures.
+
+That means, as a self-identified artist/humanist, I am much more sensitive to perceive sleights or encroaching from "the other side." But it also means I'm particularly attuned to what I see as genuine places of overlap, if not collaboration and shared value. I'll describe a few of those next.
+
+** the rapproachment with technology via the humanistic and literate
+
+There are at least two ways I can imagine arguing for our relevance.
+
+There are at least a few ways to participate in the discussion about art and science and the kinds of knowledge or influence each wield.
+
+One involves pointing out the ways both past and current artists use the tradition that informs their metier to accomplish something unique to that artist or artwork or tradition. Their best creations induce in those who "engage" with the work (sometimes thought of as an audience, though that implies an illusory passivity) an experience in which they "collaborate" with the work's raw materials to engender meanings.
+
+These meanings unquestionably constitute a kind of knowledge, one that is, however, contingent, contextual, subject to random effects that make it a poor match for the kind of reducible and reproducible model making activity that preoccupies scientists. Trying to make this argument--via, say, traditional "art appreciation" classes or some other kind of active advocacy and outreach--is a timeworn method for staying relevant, but no less viable as a way to capture something essential about art.
+
+Another approach is to expend one's efforts in a more strictly scholarly, and insular, way, using the existing tools of the scholar to examine "the internal structure" of a given artwork. This approach often successed within the circumscribed domain of academia, but has also suffered attacks "from within" that have undermined its credibility.
+
+A third approach is possible, which I'm partly doing here, is to strive for something more truly interdisciplinary, blurring lines sufficiently enough that, well, that no one knows what's going on. I like to think of this as "third culture jamming."
+
+This can be fun and even powerful as a tactic of social disruption or protest, but can be counterproductive, or at least fail to achieve much more than confusion and ill-will, as in the Sokal hoax.
+
+Perhaps the best thing would be what I'm hoping to describe, a real synthesis that avoids cynicism and looks for bright points amid the clutter and clamor. The idea of STEAM comes close. But I like to look within the sciences and within the arts, as in the yin-yang symbol, for elements of "the other."
+
+** how would three languages be a complement or a corrective
+
+Due to limitations of time, I can only offer a brief and sketchy glimpse at what I'm imagining, except to point out that the places within, say, the history of Computer Science, or Music Theory, that particular kind of pliable rigor has appeared, sometimes remaining in the margin, or simply as a kind of sui generis, or "labor of love" effort of an individual or small group.
+
+I want to specifically name Donald Knuth for the example of, one, Literate programming, the influence of which you could argue shines through in the document you see to the left. 
+
+Additionally, his work on an environment for typesetting mathematics provides a fascinating example of an aesthetic impulse swaying the otherwise seemingly typical "left-brain effort" that is theoretical Computer Science.
+
+A similarly influential and mythical figure, though known more as a programmer and tireless advocate than as a scholar, is Richard Stallman, who's initial efforts are responsible for the application, Emacs, I'm using to run this whole thing.
+
+Max Mathews is another pioneering figure within the world of computer music, whose first name is used in tribute by the ubiquitous Max/MSP program that I'm sure many at this conference are familiar if not actively using during it.
+
+Finally, of course, are Reas and Fry, who are widely known for their work on Processing, the language/environment I've used to generate the visuals.
+
+Now, in all the above, it is deceptive, as I have done, to associate one well known endeavor with one well known individual. But this falls prey to an understandable but deeply flawed narrative that any truly informed STEM reform effort must counteract. Namely, that collectives, formally and informally constituted, are as important in securing the success of the initial efforts of an individual. This kind collaborative effort is all too underrecognized as being central to the STEM disciplines.
+
+Papert.
+
+Finally, deeper within the confines of computer science, is the effort to create the language that I've ultimately used to bind all these elements together. Lisp is more of an idea than anything,  but in its various guises and implementations, in the case of my current code as Emacs Lisp and Clojure, it remains a tool for thinking through, to quote from SICP, our intuitions about process, a quote that has always sounded like it could have come from an artist like Sol Lewitt.
+
+Lest it remain for someone else to point it out, I would be remiss to not mention names like Sherry Turkle, Betty Edwards, Ellen Langer, Hannah Arendt, Lynn Margulis ("The only way behavior changes in science is that certain people die and differently behaving people take their places.") Wendy Carlos and Diane Ravitch. Their work contains profound insights that have influenced the way I think about many of the issues under discussion and I imagine each dealt, to a greater our lesser extent, with friction or resistance to their appearance within some kind of mainstream scientific community. They thus provide inspiration, contrariness, vision, and rigor of thought and generosity of spirit in sharing their insights in a way that is too easy to discount or disregard when we become preoccupied with highly visible, or extroverted--or simply lucky to have been born a certain way--figures, "thought leaders," a phrase whose vacuousness and pomposity suggests it could only be the invention of a self-aggrandizing, bloviating man.
+
+** how do you interweave languages? How do you use technology in a way that preserves freedom?
+** Meanings in Art vs. Math and Science (What is Art About?)
+
+So what I'll do is say that 
+this is hard not just because I'm trying to be comprehensive, or trying to combine disparate things, or trying to talk and "program" at the same time. It's hard because...
+
+what it "is" has something to do with the complicated relationship between "is" and "about." The distinctions between two ideas or categories these become illusory, I  believe, when discussing art within a context of reasoning, and practical utility and economic value. Its "is-ness" forms an "about" in a way that is unique to art. Or so I'd like to suggest. Or so I'm hoping to illustrate. Or so I'm hoping to achieve. (Gadamer is useful in this regard, this business of "is-ness.")
+
+Its meaning can't be separated from the language in which it was communicated, with all that went along with the words I choose. This is in direct opposition to math, where the symbols and relationships between them are atemporal, inviolable, true regardless of the language that surrounded them, provided that the right context has been established. (Now this is no small proviso, but your stereotypical STEMmer is usually willing to take this for granted.)
+
+The meaning of a scientific experiment, meanwhile, can always be translated. (The world would be a poorer place by far if understanding scientific knowledge demanded we all learn some kind of Esperanto.)
+
+Doing so with art, however, always produces another related but different work of art, with its own distinct but related meaning. Newton's third law means the same thing no matter what language you  speak (but Shakespeare in German, or Rilke in English, is another beast entirely). Surely it would be foolish to deny the power in that. But just as surely we can question the refusal to admit of other ways of capturing truth.
+
+** Low Utility of what Art Provides
+
+Its is-ness is what it's about, here, today, with me standing up here, in a way that defies summarization, the neat encapsulation demanded of a hypothesis or a conclusion. Because what conclusion can you really draw about something that is about complicating the whole question of "what it is," except to say, it's complicated. Or I don't get it. Or it doesn't work, or doesn't effectively do what it purports to do. Or "everything is everything" and wow how very trippy that is. Or whatever conclusion you eventually 
+or ultimately 
+or one day reach and on another day are unable or unwilling to reach.
+
+Now admittedly this is a much harder thing to accept as useful. As something that will increase the GDP or one's purchasing power, or get one into Connecticut College, or heigthen one's value on the job market. Or even as something that belongs on some curriculum somewhere.
+
+** Double Language
+
+Arts ability to communicate more than one thing at the same time, or at different times, needs defending and no science framework or design-by-committee academic standard is up to the task. "Article 4.1.a states ambiguity is powerful"
+
+Art's ability to communicate more than one thing, in more than one language, this kind of irony or doubleness of what is spoken and what is meant, is unique to art (and natural language), and represents a powerful mode of reasoning and thinking and communicating. One that gives and refuses, that creates an experience for you but declines to explain it at the risk of over-explaining. At the risk of taking away your own contribution in your mind to what it "is." Something that, regardless of the number of SparkNotes books telling perplexed students what to regurgitate on test day, or little explanatory placards the curator or some historian provides, or scholarly journal abstracts with requisite keywords we provide,
+
+cannot be exhausted, cannot be anticipated, and cannot be denied.
+
+Research that can't be reproduced in a way that's good and totally at odds with what peer reviewed science demands.
+
+** Defense of art as a way of thinking
+
+I would argue that this ambiguity is a kind of thinking that the tidy scientific mode of experiencing the world can't accept, and by definition, can't provide. But it is no less important, for reasons I could try to articulate, enumerate, explicate. But I don't want to deny you that experience yourself.
+
+So instead I wish to simply defend it. To argue that it is a way of thinking that must be defended now in an age ever more convinced that it knows what it needs to know. The best Art provides something you need to know, but that you don't "need." Try publishing that in a science journal.
+
+... Don't need and that no one wants to pay for.
+
+It's okay, it's good...If you walk away saying, I thought I knew what he/it meant while he was talking, but then when it was over, I couldn't really tell you what it was he was saying, or I thought he was saying. 
+
+Together we will have done a job, collaborated on a real time meaning, that no algorithm can do for you. That any multiple choice question will fail to do justice to. 
+
+And that should be celebrated. Art did its job, leaving you smarter and more confused, less certain and all the wiser for it.
+
+* Extras
+** Breathlessly anodyne :ammerman:bigstory:
+   :PROPERTIES:
+   :CREATED:  [2018-01-13 Sat 05:42]
+   :END:
+
+ Frameworks and methodologies and rubrics and crosswalks
+
+ Think tanks and in-house R & D labs and venture capital firms. Uber for X and the Airbnb of Y. Apps and accounts and logins and passwords and usernames and email addresses. Password checkers and security questions and layers of encryption. Password resetting, account deletion, and I Am Not A Robot tests. Cashless and frictionless transactions and recurring payments. Crowdsourcing and funding campaigns and matching donations and anonymous donors. AI and machine learning and visual recognition algorithms. Big Data, petabytes, exabytes. Cloud storage and remote hosting. Software as a service, platform as a service. Proprietary databases, End Users license agreements. Public, open, free. Private, closed, restricted. Biometrics, identity theft, retinal scans.
+
+ Tax haven, tax shelter, tax avoidance schemes. Hedge funds, mutual funds, money market funds, index funds. Volatility index, free trade agreements.
+
+ Block chain, bit ledger, mining, crypto currency.
+
+ Activity trackers, Quantified self, To-do list manager, productivity logging.
+
+ Anomie, doxxing, shaming. Retweets, likes, followers. Facebook suicide. IRL,  FOMO, YOLO. LOL. Chatting, messaging, sharing.
+
+ User handle, Avatar, personalized Emoji, personal encryption key.
+
+ Forums, board, channel. Streaming, on demand, 
+
+** Performance art and Performance text :writing:ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-15 Mon 06:10]
+   :END:
+
+ The decentralization of performance art rubs of on writing.
+
+ Text as language with no center, but not necessarily no thread. If anything the opposite. This is hard to do and really, unless you demand a "gaming" level of interaction from the audience, it's really akin to animation and typography, perhaps more than writing or even film-making (in which narrative is churned through a great visual machinery that imposes a kind of superstructure of extra-textual elements. At it's most extreme, it's programming of natural language constructs built up according to some larger architectonic scheme allowing for dynamic generation of content on the fly.
+
+ This may be what imaginative fiction is actually for, as opposed to actually realizing any of this
+
+** Imagine Counterfactuals :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-24 Wed 06:14]
+   :END:
+
+ Imagine if the world's artists rose up and collectively declared that there was an impending crisis: there was an arts shortage on the horizon, and soon demand for art works was soon going to far outstrip our world's capacity to provide.
+
+ Well of course it would be regarded as an enormous ruse, a joke by some ill-mannered MFA students. Because it's widely known there is no such thing? Or because the argument is, on its face, ridiculous. Art is not, by its nature, something that takes part in the ordinary exchanges of goods and services by which people satisfy their ever-changing needs and wants. 
+
+ That is, there is no plausible economic argument that exists for why "art" is something that might be in short supply.
+
+ According to Hannah Arendt's The Human Condition, this is because it stands outside of these things. But all is not well, because it does not simply follow that there livelihoods of people who regard themselves as artists are secure. In fact, the illusion of security only occasionally gets clouded over, making it appear that there could be compelling reasons to choose to devote one's efforts to stepping outside the existing patterns of economic exchange that are the primary drivers of many if not most major political questions today.
+
+ But self-delusion is a powerful force, especially when enabled by the monoliths of institutional learning that promise to provide training to all worthy individuals, demand be damned.
+
+ Of course, this is not an argument that people do not value "the arts." Or rather, that some people do not feel pressured to preemptively declare their belief in the value of the arts.
+
+ But what art? And made by whom? And for what purpose? And owned and controlled by whom, and distrubuted by what official or unofficial channels? And for what costs? And made with what tools, consisting of what materials, requiring what kind of interaction, engagement or commitment? And sanctioned by what priesthood?
+
+ But what of the argument made that we need more scientists? More engineers? The economic explanation here seems to hold much more weight, and even the political arguments seem more and more exigent. Impending environmental apocalypses surely will require "new and innovative solutions." And members of post-industrial societies will surely need more creative and hand-held or wearable or subcutaneous ways to insulate themselves off from the unfortunate uncertainties that beset the less economically advanced nations.
+
+ But all of this should rightfully sound dubious, as I have sloppyily constructed it. There is simply so much that remains out of any one individual's control that trying to anticipate the collective outcomes of 5 billion such people's actions is a fool's errand.
+
+ And yet it is precisely what we are tasked with doing. That is, what rational thinkers are tasked with. That is, what scientists are best at.
+
+ There is very quickly a reductio ad absurdum waiting for anyone lazy and unquestioning enough to entertain plausible if casual thinking.
+
+ But to argue that the biggest problems that face the world today will demand scientific answers seems to me problematic. To begin with, the conflicts of interest are patent, but do not seem the least bit troubling. Google is dedicated to making the world a better place. By providing "solutions" to our educational travails. And by developing more engineers that could then be hired by them.
+
+ We can become so enchanted with craftily constructed arguments and our own need to be self-deluded that we forget that Google and EVERY other tech company exists not because of some benevolent, world-healing desire but rather to satisfy shareholders demands.
+
+** Pro stem arguments :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-25 Thu 21:04]
+   :END:
+
+ What's missing
+
+ What's the  understanding of the current status of our society's relationship with technology? And what assumptions are made about how that will change? What is normative and what is predictive? What can and cannot be known for certain?
+
+** Glut of art argument :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-26 Fri 17:02]
+   :END:
+
+ At best, this argument is facile and lazy.
+
+ At worst, it is poor, even disingenuous, if not downright harmful.
+
+** What do I want to say? :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-26 Fri 22:49]
+   :END:
+
+ What is the argument I am trying to make? Is it about what we should value generally? Or just in education? And education at what level? K-12 or beyond? Is this about public education? Is this about the role of art-making in public education in this technological age? Is it about science? Or about reasoning more generally? Is it about trying to influence the process by which society valuates the knowledge that comes from artistic experience, either making or otherwise studying, or even simply encountering?
+
+ Is it merely to offer up the possibility that training in and study of the arts, or particular elements of artistic experience, need not be considered at best extra-curricular, while more and more effort and resources are devoted to reforms that focus on "critical thinking," provided that thinking is unfailing left-brain and linear. And to in fact show that "technology" can be deployed in the midst of artistic training that might "satisfy everyone," whatever that would actually look like.
+
+ Is art-making recognized as a valid form of "knowledge-making," or does it depend on the kind of art? On the artist's intentions? Does the knowledge that artists bring to bear make any contributions to the "sum of human knowledge," in, say, the way that science purports to be "getting closer to the Truth?"
+
+ If we want to start proposing that artists' contributions are worthwhile, as both cultural and intellectual artifacts, we are forced to consider the very terms of our assertions.
+
+ Specifically, consider the way that I'm approaching this. Trying to put all in one document, the linguistic content of what I'm saying, some kind of artistic undertaking to illustrate or at least reflect and refract some of the themes and then of course the very code that I use to generate the art work and transform the raw materials in real time, as if in live performance.
+
+ What do I have against the acronym (as it will be referred to henceforth)?
+ It is uninspired, alienating, facile and redundant and now trendy. Some science educators wouldn't bat an eye at most of these accusations, especially the latter--who wouldn't want to go from being the epitome of dorkiness (the school Science fair) to almost, ya know, cool.
+
+ But really, apart from these things, it is worth paying attention to the context, that little "humanizing" characteristic that scientists would love to escape from but that pesky little humanists keep bringing up.
+
+ In the context of bold and dramatic assertions that biggest problems we face today require scientific solutions, we would do well to consider what kind of society we are preparing ourselves for. That's right, the 'ol problem of economics.
+
+ Perhaps foremost is the role this surfeit of engineers will play in the growth of automation as driver of cultural and economic and thus political change.
+
+** Pose simple questions anyone might have :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-27 Sat 23:43]
+   :END:
+
+ What is STEM? Where does the term come from, who is using it, and why?
+
+ Why should artists care? How does the ever-rising status of "STEM" affect us? What should we think about the various efforts underway to "reform" K-12 education, especially of the public variety? Is there something we should be doing, either within our artistic practice or simply as good citizens?
+
+ What are the problems with this cultural push away from the arts? What can be done?
+
+ What is Free Software and what should you know about the Free Software movement and more generally, open access and technological freedom-concerned institutions like Creative Commons, Electronic Frontier Foundation and the like? What are the ramifications for artists who may or may not use computers for anything more than email and basic web browsing?
+
+ What role should technology play in both our artistic practices and artistic training more broadly? And what role should the arts play in our society and particularly in our education?
+
+ What is programming and how do computational approaches come in to play in the work of artists today? What role should computers and specifically programming play in our education?
+
+ What is literate programming, what is a text editor? what is live coding and what are executable environments? 
+
+** Economic vs. Epistemic :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-01-28 Sun 10:28]
+   :END:
+
+ The argument about artists' livelihoods was overstated and ultimately less important--because how much more threatened can the lives of people who subsist on earnings from artistic work already be--than the matter of cultural and intellectual value.
+
+ The point I would say it's more subtle but more important draws on SICP.
+ I would posit that, in addition to the two kinds of only
+
+** The acronym not a problem if :ammerman:
+   :PROPERTIES:
+   :CREATED:  [2018-02-01 Thu 12:33]
+   :END:
+
+ If all it really stood for, as a totem, were "improved science education."
+
+ But it is much more significant than that.
+
+** Pieces of the Puzzle :ammerman:
+** STEM attack angle
+   :PROPERTIES:
+   :CREATED:  [2018-02-07 Wed 20:51]
+   :END:
+
+ The question concerning Technology is not just an influential essay by Heidegger. The question is whose technology? Who owns our software? Who owns our browser history? Who has our best interest at heart? How can you say what my best interest is?
+
+** What do we ask if our STEM?
+   :PROPERTIES:
+   :CREATED:  [2018-02-07 Wed 22:16]
+   :END:
+
+ That it be beautiful.
+ That it be human
+ That it tolerate ambiguity
+ That it fill us work awe
+ That it allow us to express ourselves however we want
+
+** Finally concluded.
+   :PROPERTIES:
+   :CREATED:  [2018-02-08 Thu 02:58]
+   :END:
+
+ Needs to be explained what benefit there is to this whole art is ambiguous thesis and how it relates to the unambiguous nature of formal language?
+
+** Translations
+   :PROPERTIES:
+   :CREATED:  [2018-02-08 Thu 04:13]
+   :END:
+
+ Take, "I indulge in rich refusals."
+
+ If you want to spell it out, why this is good poetry, you can do so.
+
+ Here's one version. 
+
+ But we will destroy something about it. This is analogous to Schrodinger's Cat experiment. Killing the cat by stating unequivocally what "it means."
+
+
